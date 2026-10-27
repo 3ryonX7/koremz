@@ -1,0 +1,749 @@
+<!DOCTYPE html>
+<html lang="kk"><head><meta charset="utf-8"/><meta content="width=device-width,initial-scale=1" name="viewport"/><meta content="#0b1016" name="theme-color"/><title>QAZAQ RESISTANCE — Тарихи платформа</title><style>
+:root{--bg:#0b1016;--panel:#151b21;--panel2:#20252a;--gold:#dcb36e;--gold2:#f4d9a3;--text:#f4efe7;--muted:#aaa9a5;--line:#4a4134}*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--bg);color:var(--text);font:16px/1.6 Georgia,'Times New Roman',serif}button,input{font:inherit}button,a{-webkit-tap-highlight-color:transparent}a{color:inherit;text-decoration:none}.top{height:82px;display:flex;align-items:center;gap:35px;padding:0 clamp(18px,4vw,72px);background:#090d11ed;border-bottom:1px solid #413a30;position:sticky;top:0;z-index:20;backdrop-filter:blur(15px)}.brand{display:flex;align-items:center;gap:10px;color:var(--gold);font-size:20px;line-height:1.05;letter-spacing:1px;min-width:195px}.brand b{font-size:17px}.brandmark{font-size:38px}.top nav{display:flex;align-items:center;justify-content:flex-end;gap:18px;flex:1;flex-wrap:wrap}.top nav a{font:13px/1.3 Arial,sans-serif;color:#d5d0c8;transition:.2s}.top nav a:hover,.top nav a.selected{color:var(--gold)}.menu{display:none;background:none;border:1px solid var(--line);color:var(--gold);border-radius:6px;padding:5px 12px;font-size:22px}.page{display:none;min-height:70vh;animation:enter .35s ease}.page.active{display:block}@keyframes enter{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:translateY(0)}}.hero{min-height:560px;padding:85px clamp(24px,8vw,140px);display:flex;align-items:center;justify-content:space-between;gap:40px;position:relative;overflow:hidden;background:linear-gradient(90deg,#090e13 1%,#0b1115ed 37%,#1a1c1d65 100%),radial-gradient(ellipse at 75% 40%,#c487395e,transparent 55%),linear-gradient(145deg,#1b242b,#080b0f 80%)}.hero:before{content:' ';position:absolute;inset:0;background:repeating-linear-gradient(145deg,transparent 0 115px,#f3c87a06 116px 117px);pointer-events:none}.hero:after{content:'✦';position:absolute;right:10%;top:8%;font-size:340px;line-height:1;color:#c59d5515;transform:rotate(20deg);pointer-events:none}.hero-content{position:relative;z-index:1;max-width:720px}.eyebrow{color:var(--gold);letter-spacing:3px;font:11px/1.5 Arial,sans-serif;font-weight:bold}.hero h1{font-size:clamp(48px,7vw,104px);line-height:.97;letter-spacing:-2px;margin:28px 0;color:#fff0d4}.hero h1 em{display:block;color:var(--gold);font-style:normal}.hero-lead{font-size:clamp(19px,2.3vw,27px);line-height:1.4;max-width:650px}.muted,.pagehead p,.feature p,.detail p{color:var(--muted)}.hero-side{align-self:end;z-index:1;text-align:right;color:var(--gold);font:11px Arial;letter-spacing:2px;display:grid;gap:12px}.hero-num{font:32px Georgia}.actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:30px}.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;cursor:pointer;border:1px solid var(--gold);padding:13px 23px;border-radius:6px;font:600 14px Arial,sans-serif;transition:.2s}.btn:hover{transform:translateY(-2px);filter:brightness(1.12)}.primary{background:linear-gradient(135deg,#f4d18b,#bd8b43);color:#18130b}.outline{background:#11161b;color:#e9d3ad}.section-intro{text-align:center;margin:55px 20px 28px}.section-intro h2,.pagehead h2{font-size:clamp(32px,4vw,54px);line-height:1.1;margin:12px 0 18px}.feature-grid{max-width:1450px;padding:0 28px;margin:auto;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:17px}.feature{min-height:215px;border:1px solid #6c5434;background:radial-gradient(circle at 95% 5%,#a4763025,transparent 55%),linear-gradient(140deg,#1b2228,#0d1115);padding:26px;position:relative;transition:.25s}.feature:hover{border-color:var(--gold);transform:translateY(-5px)}.feature span{color:var(--gold);font:11px Arial;letter-spacing:2px}.feature h3{font-size:25px;margin:28px 0 8px}.feature p{margin:0;max-width:290px;font-size:15px}.feature b{position:absolute;right:20px;bottom:18px;border:1px solid var(--gold);color:var(--gold);width:32px;height:32px;border-radius:50%;display:grid;place-items:center}.banner{max-width:1394px;margin:35px auto 70px;padding:35px;background:linear-gradient(110deg,#32291f,#121920);border:1px solid #6d5636;display:flex;align-items:center;justify-content:space-between;gap:20px}.banner h2{margin:8px 0;font-size:30px}.page:not(#home){max-width:1350px;margin:auto;padding:55px 25px 90px}.pagehead{margin-bottom:32px}.pagehead p{font-size:17px;max-width:790px}.history-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:18px}.history-card,.detail,.time-panel,.formbox,.story-panel{background:linear-gradient(150deg,#1d2328,#11161a);border:1px solid #554633;padding:28px;border-radius:8px}.history-card .date{font:13px Arial;color:var(--gold);letter-spacing:2px}.history-card h3{font-size:27px;margin:12px 0}.history-card p{color:#c8c4bc}.history-card strong{color:var(--gold2)}.note{border-left:3px solid var(--gold);background:#27231e;padding:15px 20px;margin-top:24px;color:#cfc4b5;font:14px/1.6 Arial}.maplayout{display:grid;grid-template-columns:1.7fr 1fr;gap:18px}.mapbox{position:relative;min-height:470px;border:1px solid #78603d;border-radius:8px;overflow:hidden;background:radial-gradient(ellipse at 45% 45%,#76603e70,transparent 52%),repeating-linear-gradient(30deg,transparent 0 65px,#c3a8790d 66px 67px),linear-gradient(140deg,#34332d,#171f22)}.mapbox:after{content:' ';position:absolute;inset:15% 12%;border:2px dashed #b59a6b55;border-radius:48% 55% 42% 35%;transform:rotate(-14deg);pointer-events:none}.maptitle{position:absolute;top:20px;left:24px;font-size:28px;color:#ead3a9;letter-spacing:3px}.maptitle small{display:block;font:10px Arial;color:#bcb3a1;letter-spacing:2px}.pin{position:absolute;z-index:2;cursor:pointer;background:#e2b970;color:#16140f;border:2px solid #ffde9b;border-radius:28px;padding:7px 10px;font-weight:bold;box-shadow:0 0 25px #dcae6470}.pin small{display:block;font:10px Arial}.detail h3{font-size:27px;margin:12px 0}.years{display:flex;flex-wrap:wrap;gap:10px;margin-bottom:22px}.year{background:#1d252b;color:#d7cbb8;border:1px solid #60533d;padding:12px 20px;cursor:pointer;border-radius:5px}.year.on{background:var(--gold);color:#141414}.time-panel{min-height:230px}.time-panel h3{font-size:35px;margin:12px 0}.time-panel p{color:#ccc}.story-panel{min-height:380px;padding:clamp(28px,5vw,70px);background:radial-gradient(ellipse at 85% 50%,#a6793440,transparent 55%),linear-gradient(135deg,#29241e,#0f1519)}.story-index{color:var(--gold);font:14px Arial;letter-spacing:4px}.story-panel h2{font-size:clamp(32px,5vw,54px)}.story-panel p{font-size:21px;max-width:850px;color:#e4d8c4}.story-controls{display:flex;gap:12px;margin-top:35px}.formbox{max-width:850px}.question-num{color:var(--gold);font:12px Arial;letter-spacing:2px}.formbox h3{font-size:25px}.option{display:block;width:100%;text-align:left;background:#232a2d;color:#f0ece4;border:1px solid #4d4b42;padding:14px 17px;margin:9px 0;border-radius:5px;cursor:pointer}.option:hover{border-color:var(--gold)}.option.chosen{border-color:var(--gold);background:#4a3b26}.option.correct{border-color:#70ba8a;background:#1b4a31}.option.wrong{border-color:#c97e71;background:#4a2524}.progress{height:5px;background:#373531;border-radius:5px;overflow:hidden;margin:18px 0 25px}.progress>div{height:100%;background:var(--gold);transition:width .3s}.ai-layout{display:grid;grid-template-columns:1fr 1.6fr;gap:20px}.ai-portrait{min-height:450px;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:16px;background:radial-gradient(circle,#655033,#11171b 65%);border:1px solid #574832;text-align:center;padding:25px}.avatar{font-size:110px;color:var(--gold)}.ai-portrait span{letter-spacing:2px;color:var(--gold)}.ai-portrait small{color:#a8a8a8}.ai-question{border-bottom:1px solid #544838;padding:18px 0}.ai-question summary{cursor:pointer;font-size:18px;color:#f0d7aa}.ai-question p{color:#d4cfc6}.stats{display:grid;grid-template-columns:repeat(4,1fr);gap:15px;margin-bottom:22px}.stat{border:1px solid #59482e;padding:26px;background:#171e23}.stat b{display:block;font-size:42px;color:var(--gold)}.stat span{color:#b7b3aa;font:13px Arial}.result-row{margin:18px 0}.result-row span{font:13px Arial;color:#ddd}.bar{height:11px;background:#323638;border-radius:8px;overflow:hidden;margin-top:8px}.bar>div{height:100%;background:linear-gradient(90deg,#986e37,#e7bd78)}footer{display:flex;justify-content:space-between;gap:15px;padding:30px 5vw;border-top:1px solid #42392b;color:#a6a097;font:12px Arial}footer span:first-child{color:var(--gold)}@media(max-width:1050px){.top{height:auto;min-height:72px;justify-content:space-between}.menu{display:block}.top nav{display:none;position:absolute;top:72px;left:0;right:0;background:#10161b;flex-direction:column;align-items:stretch;gap:0;padding:10px 22px 20px;border-bottom:1px solid var(--line)}.top nav.open{display:flex}.top nav a{padding:11px;border-bottom:1px solid #ffffff12}.hero{min-height:530px}.hero-side{display:none}}@media(max-width:700px){.hero{padding:70px 24px;min-height:490px}.hero h1{font-size:clamp(45px,12vw,75px)}.feature-grid,.history-grid,.maplayout,.ai-layout{grid-template-columns:1fr}.feature-grid{padding:0 17px}.feature{min-height:170px}.feature h3{margin-top:15px}.banner{margin:24px 17px 50px;flex-direction:column;align-items:flex-start}.page:not(#home){padding:35px 16px 65px}.mapbox{min-height:350px}.stats{grid-template-columns:repeat(2,1fr)}.stat{padding:18px}.stat b{font-size:30px}.story-controls{flex-wrap:wrap}footer{flex-direction:column}}
+
+/* V2: тұрақты навигация және мобильді ыңғайлылық */
+html{scroll-padding-top:90px}
+body{padding-top:82px}
+.top{position:fixed!important;top:0;left:0;right:0;width:100%;height:82px;z-index:9999}
+button,a,input,summary{-webkit-tap-highlight-color:transparent;tap-highlight-color:transparent}
+button:focus,a:focus,input:focus,summary:focus{outline:none}
+button:focus-visible,a:focus-visible,input:focus-visible,summary:focus-visible{outline:2px solid var(--gold);outline-offset:3px}
+button,a{touch-action:manipulation}
+@media(max-width:1050px){body{padding-top:72px}.top{height:72px;min-height:72px}.top nav{max-height:calc(100dvh - 72px);overflow-y:auto;box-shadow:0 18px 35px #0009}}
+@media(prefers-reduced-motion:reduce){*,*:before,*:after{animation-duration:.01ms!important;transition-duration:.01ms!important;scroll-behavior:auto!important}}
+
+/* V3: mobile fixed header, robust against scrolling */
+html,body{overflow-x:clip}
+body{padding-top:var(--header-height,76px)!important}
+header.top{position:fixed!important;inset:0 0 auto 0!important;top:0!important;left:0!important;right:0!important;transform:none!important;translate:none!important;margin:0!important;width:100%!important;max-width:100vw!important;height:var(--header-height,76px)!important;min-height:var(--header-height,76px)!important;z-index:2147483000!important;isolation:isolate}
+@media(min-width:1051px){:root{--header-height:82px}}
+@media(max-width:1050px){
+:root{--header-height:72px}
+header.top nav{position:fixed!important;top:var(--header-height)!important;left:0!important;right:0!important;max-height:calc(100dvh - var(--header-height))!important;overflow:auto!important;overscroll-behavior:contain}
+}
+.page{scroll-margin-top:var(--header-height)}
+
+/* V4 — cinematic responsive redesign */
+:root{--header-height:76px}
+html{scroll-behavior:auto;scroll-padding-top:calc(var(--header-height) + 22px);overflow-x:hidden}
+body{overflow-x:hidden;padding-top:var(--header-height)!important;min-width:0}
+header.top{height:var(--header-height)!important;min-height:var(--header-height)!important;z-index:1000!important}
+.page{min-height:0!important;animation:none!important;scroll-margin-top:calc(var(--header-height) + 20px)}
+.page:not(#home){padding-top:34px;padding-bottom:42px}
+.pagehead{margin-bottom:22px}
+.pagehead h2{overflow-wrap:anywhere}
+.hero{background:linear-gradient(90deg,#071016f7 0%,#081016d9 33%,#0a11146b 72%,#080e1388 100%),url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxNjAwIDg1MCIgcHJlc2VydmVBc3BlY3RSYXRpbz0ieE1pZFlNaWQgc2xpY2UiPjxkZWZzPjxsaW5lYXJHcmFkaWVudCBpZD0ic2t5IiB4Mj0iMCIgeTI9IjEiPjxzdG9wIHN0b3AtY29sb3I9IiMwYjE3MjQiLz48c3RvcCBvZmZzZXQ9Ii40NCIgc3RvcC1jb2xvcj0iIzczNTQzOCIvPjxzdG9wIG9mZnNldD0iLjcyIiBzdG9wLWNvbG9yPSIjYjc4YTRkIi8+PHN0b3Agb2Zmc2V0PSIxIiBzdG9wLWNvbG9yPSIjMTQxZDIwIi8+PC9saW5lYXJHcmFkaWVudD48cmFkaWFsR3JhZGllbnQgaWQ9InN1biI+PHN0b3Agc3RvcC1jb2xvcj0iI2Y1ZDI5YSIgc3RvcC1vcGFjaXR5PSIuOSIvPjxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iI2U2YTA1MiIgc3RvcC1vcGFjaXR5PSIwIi8+PC9yYWRpYWxHcmFkaWVudD48bGluZWFyR3JhZGllbnQgaWQ9ImxhbmQiIHgyPSIwIiB5Mj0iMSI+PHN0b3Agc3RvcC1jb2xvcj0iIzM4NDIzYiIvPjxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iIzBiMTMxOSIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHdpZHRoPSIxNjAwIiBoZWlnaHQ9Ijg1MCIgZmlsbD0idXJsKCNza3kpIi8+PGNpcmNsZSBjeD0iMTE2MCIgY3k9IjMxMCIgcj0iMzMwIiBmaWxsPSJ1cmwoI3N1bikiLz48cGF0aCBkPSJNMCA0NzBMMTIwIDM3MCAyMTAgNDIwIDM2NSAyNjAgNDk1IDQxMCA2NDAgMzAwIDc4MCA0MjAgOTQ1IDI5MCAxMTIwIDQyMCAxMjgwIDMwMCAxNDQwIDQyMCAxNjAwIDMyMFY4NTBIMFoiIGZpbGw9IiMyMDJjMzIiIG9wYWNpdHk9Ii42MiIvPjxwYXRoIGQ9Ik0wIDU1MEwxODAgNDYwIDMwMCA1MDAgNTAwIDM5NSA2ODAgNTIwIDgxMCA0NTAgOTgwIDUxMCAxMjAwIDQxMCAxNDMwIDUwMCAxNjAwIDQ0NVY4NTBIMFoiIGZpbGw9IiMxYTI0MjkiIG9wYWNpdHk9Ii44NiIvPjxwYXRoIGQ9Ik0wIDYxMFEyNjAgNTI1IDQ4MCA2MDBUMTAwMCA1NzBUMTYwMCA1NzVWODUwSDBaIiBmaWxsPSJ1cmwoI2xhbmQpIi8+PHBhdGggZD0iTTAgNzIwUTMyMCA2MTAgNjEwIDY4NVQxMjIwIDY0MFQxNjAwIDcwMFY4NTBIMFoiIGZpbGw9IiMwYzE1MWEiLz48ZyBmaWxsPSIjMDkwZjEzIiBvcGFjaXR5PSIuOTIiIHRyYW5zZm9ybT0idHJhbnNsYXRlKDEwNzAgNDg1KSBzY2FsZSgxLjQpIj48cGF0aCBkPSJNMTAgMTEwbC0zNS0yMi0zNSA2LTI0LTEwLTIyIDggOSAxNiAzNSAxIDIyIDEzIDE3IDgtOCA1NSAxMiAwIDE3LTUwIDM4LTcgMzIgMTEgMTIgNTJoMTJsLTItNjEgMTktMjUtMy0yOS0xNy0zLTEzIDIwLTI0IDZ6Ii8+PHBhdGggZD0iTS00IDgzbDgtNDYgMTUtMTkgMTkgNCAxMyAyMi01IDM1LTE4IDEweiIvPjxjaXJjbGUgY3g9IjIzIiBjeT0iOSIgcj0iMTYiLz48cGF0aCBkPSJNMTItM0wyOC0zMyA0Mi01WiIvPjxwYXRoIGQ9Ik0xOCA0NEwtMTQgODMtNiA4OSAzMiA2M1oiLz48L2c+PGcgZmlsbD0iIzBiMTExNSIgb3BhY2l0eT0iLjciIHRyYW5zZm9ybT0idHJhbnNsYXRlKDEzOTAgNTU1KSBzY2FsZSguNykiPjxwYXRoIGQ9Ik0xMCAxMTBsLTM1LTIyLTM1IDYtMjQtMTAtMjIgOCA5IDE2IDM1IDEgMjIgMTMgMTcgOC04IDU1IDEyIDAgMTctNTAgMzgtNyAzMiAxMSAxMiA1MmgxMmwtMi02MSAxOS0yNS0zLTI5LTE3LTMtMTMgMjAtMjQgNnoiLz48cGF0aCBkPSJNLTQgODNsOC00NiAxNS0xOSAxOSA0IDEzIDIyLTUgMzUtMTggMTB6Ii8+PGNpcmNsZSBjeD0iMjMiIGN5PSI5IiByPSIxNiIvPjwvZz48ZyBmaWxsPSIjZDdiMjdhIiBvcGFjaXR5PSIuMTIiPjxjaXJjbGUgY3g9IjEyMTAiIGN5PSIxOTAiIHI9IjIiLz48Y2lyY2xlIGN4PSIxMDAwIiBjeT0iMjMwIiByPSIzIi8+PGNpcmNsZSBjeD0iMTUxMCIgY3k9IjEyMCIgcj0iMiIvPjwvZz48L3N2Zz4K') center/cover no-repeat;min-height:min(690px,calc(100svh - var(--header-height)));padding:clamp(42px,6vw,95px) clamp(22px,7vw,110px)}
+.hero:before{background:linear-gradient(0deg,#0b1016bb,transparent 35%)}
+.hero:after{display:none}
+.hero h1{overflow-wrap:anywhere;text-shadow:0 5px 26px #0009}
+.hero-lead{max-width:600px;text-shadow:0 2px 12px #000}
+.feature-grid{grid-template-columns:repeat(3,minmax(0,1fr))}
+.feature{min-height:180px}
+.banner{margin-bottom:36px}
+.stats{grid-template-columns:repeat(4,minmax(0,1fr))}
+.stat{min-width:0}
+.stat span{overflow-wrap:anywhere}
+.chart-question{padding:18px 0;border-bottom:1px solid #ffffff19}
+.chart-question h4{font-size:17px;margin:0 0 16px;line-height:1.45}
+.chart-option{margin:12px 0}
+.chart-label{display:flex;justify-content:space-between;align-items:start;gap:12px;font:13px/1.5 Arial,sans-serif;color:#e3d8c7}
+.chart-label span{min-width:0;overflow-wrap:anywhere}
+.chart-label strong{white-space:nowrap;color:var(--gold)}
+.chart-track{height:9px;background:#333b3d;border-radius:10px;overflow:hidden;margin-top:6px}
+.chart-fill{height:100%;background:linear-gradient(90deg,#b08040,#f5d494);border-radius:10px;transition:width .4s}
+.chart-explain{font-size:14px}
+.actions .btn{max-width:100%;overflow-wrap:anywhere;text-align:center}
+@media(max-width:1050px){header.top nav{position:absolute!important;top:var(--header-height)!important;left:0!important;right:0!important;max-height:calc(100dvh - var(--header-height))!important}}
+@media(max-width:700px){
+ :root{--header-height:68px}
+ header.top{padding:0 17px;gap:8px}
+ .brand{min-width:0;font-size:16px;letter-spacing:.3px}
+ .brand b{font-size:14px}
+ .brandmark{font-size:26px}
+ .menu{flex-shrink:0}
+ .hero{min-height:520px;padding:48px 20px;background-position:59% center}
+ .hero h1{font-size:clamp(39px,11vw,65px);letter-spacing:-1.5px}
+ .hero-lead{font-size:19px}
+ .hero .actions{flex-direction:column;align-items:stretch}
+ .feature-grid{grid-template-columns:1fr;padding:0 16px}
+ .feature{min-height:155px;padding:20px}
+ .feature h3{font-size:22px;margin:16px 0 8px}
+ .section-intro{margin-top:32px}
+ .page:not(#home){padding:24px 16px 36px}
+ .pagehead h2{font-size:clamp(29px,8vw,39px)}
+ .stats{grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}
+ .stat{padding:16px 13px}
+ .stat b{font-size:31px}
+ .stat span{font-size:12px}
+ .detail,.formbox,.history-card,.time-panel,.story-panel{padding:19px}
+ #results .actions{flex-direction:column;align-items:stretch}
+ #results .actions .btn{width:100%;white-space:normal;min-height:49px;padding:12px}
+ .banner{padding:24px;margin-bottom:28px}
+ footer{padding:20px 16px}
+}
+@media(max-width:360px){.brand{font-size:14px}.brand b{font-size:12px}.brandmark{font-size:23px}.menu{padding:4px 9px}}
+
+/* V5 — review panel adapted from earlier project workflow */
+.quiz-review{margin:28px 0;text-align:left}.review-item{padding:15px 0;border-bottom:1px solid rgba(198,164,106,.25)}.review-item p{margin:6px 0}.review-good{color:#88d4a5}.review-bad{color:#f0a69e}.quiz-review strong{display:block;line-height:1.5}
+
+/* V6: compact left drawer inspired by previous QAZAQ HISTORY site */
+header.top{display:flex!important;justify-content:flex-start!important;gap:15px!important}
+header.top .menu{display:grid!important;place-items:center!important;order:0!important;width:43px!important;height:43px!important;flex:0 0 43px!important;padding:0!important;border-radius:10px!important;font-size:23px!important}
+header.top .brand{order:1!important;min-width:0!important}
+header.top nav#nav{position:fixed!important;top:0!important;left:0!important;right:auto!important;bottom:0!important;width:min(290px,86vw)!important;max-width:290px!important;height:100dvh!important;max-height:100dvh!important;display:flex!important;flex-direction:column!important;align-items:stretch!important;justify-content:flex-start!important;gap:2px!important;flex-wrap:nowrap!important;overflow-y:auto!important;overscroll-behavior:contain!important;background:#101820!important;border-right:1px solid #6d5636!important;border-bottom:0!important;box-shadow:12px 0 48px #0009!important;padding:16px 13px 28px!important;z-index:2147483002!important;transform:translateX(-110%)!important;transition:transform .24s ease!important;visibility:hidden!important}
+header.top nav#nav.open{transform:translateX(0)!important;visibility:visible!important}
+header.top nav#nav a{display:flex!important;align-items:center!important;min-height:44px!important;flex:0 0 auto!important;padding:11px 14px!important;border:0!important;border-radius:9px!important;color:#e6e1d6!important;font:500 14px/1.3 Arial,sans-serif!important;white-space:normal!important}
+header.top nav#nav a:hover,header.top nav#nav a.selected{background:#5e482d!important;color:#ffdaa0!important}
+.sidebar-head{display:flex;justify-content:space-between;align-items:center;gap:8px;padding:5px 9px 16px;color:var(--gold);font:700 12px Arial,sans-serif;letter-spacing:2px}
+.sidebar-head button{border:1px solid #685538;background:#1a2229;color:var(--gold);border-radius:8px;width:36px;height:36px;cursor:pointer}
+.nav-shade{position:fixed;inset:0;background:#030609a8;z-index:2147483001;opacity:0;visibility:hidden;pointer-events:none;transition:opacity .24s ease}
+body.nav-open .nav-shade{opacity:1;visibility:visible;pointer-events:auto}
+body.nav-open{overflow:hidden}
+@media(max-width:700px){header.top{gap:10px!important}header.top .brand{font-size:16px!important}.brandmark{font-size:27px!important}header.top .menu{width:40px!important;height:40px!important;flex-basis:40px!important}}
+@media(prefers-reduced-motion:reduce){header.top nav#nav,.nav-shade{transition:none!important}}
+
+/* V7: fix stacking context: backdrop must NEVER cover sidebar controls */
+header.top{z-index:10020!important;isolation:isolate!important}
+header.top nav#nav{z-index:10022!important;opacity:1!important;filter:none!important;pointer-events:auto!important}
+.nav-shade{z-index:10010!important}
+header.top nav#nav a,header.top nav#nav button{pointer-events:auto!important;opacity:1!important}
+.sidebar-head{min-height:82px;align-items:flex-start;padding:8px 6px 18px;letter-spacing:normal}
+.drawer-brand{display:flex;align-items:center;gap:10px;color:#eac485;font:700 17px/1.15 Georgia,serif;letter-spacing:.6px}
+.drawer-star{font-size:33px;line-height:1}
+.drawer-brand small{display:block;margin-top:9px;color:#b5a38a;font:700 10px Arial,sans-serif;letter-spacing:2px}
+header.top nav#nav a{font-size:15px!important;color:#f1e8d8!important}
+header.top nav#nav a.selected{background:#473624!important}
+@media(max-width:700px){header.top nav#nav{width:min(290px,86vw)!important}}
+
+/* V8: Quiz and survey analytics */
+.quiz-toolbar{display:flex;align-items:center;flex-wrap:wrap;gap:10px 14px;padding:18px 20px;background:#171d22;border:1px solid #5b4a35;border-radius:15px;margin-bottom:18px}
+.quiz-toolbar label{color:#d7c5a6;font-size:14px;font-weight:700}.quiz-toolbar select{background:#0b1016;color:#f5e5c9;border:1px solid #81653d;border-radius:9px;padding:10px;min-height:44px}.quiz-toolbar select:disabled{opacity:.6}.record{margin-left:auto;color:#e9bd75;font-weight:700}.quiz-meta{display:flex;justify-content:space-between;align-items:center;gap:12px}.quiz-meta strong{font-size:20px;color:#e6bf7d}.quiz-meta strong.time-low{color:#ff857f;animation:pulse .6s infinite alternate}@keyframes pulse{to{opacity:.4}}.analytics-summary{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px;margin:20px 0}.analytics-kpi{background:#192027;border:1px solid #59472f;padding:18px;border-radius:13px;display:flex;flex-direction:column;gap:9px}.analytics-kpi small{color:#bcb4a8}.analytics-kpi strong{font:700 30px Georgia,serif;color:#e7be78}.analytics-footer{display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:12px;margin:20px 0}.analytics-footer p{flex:1;min-width:200px}@media(max-width:650px){.analytics-summary{grid-template-columns:repeat(2,minmax(0,1fr))}.quiz-toolbar{padding:13px;gap:9px}.quiz-toolbar select{max-width:135px}.record{width:100%;margin-left:0}.analytics-kpi{padding:13px}.analytics-kpi strong{font-size:25px}}@media(prefers-reduced-motion:reduce){.quiz-meta strong.time-low{animation:none}}
+
+/* V9: tactile pill-shaped controls, consistent across mobile and desktop */
+:root{--ui-radius:18px}
+.btn,button.btn,.actions .btn,#quizFeedback .btn,#surveyRoot .btn,#quizRoot .btn{border-radius:999px!important;min-height:46px;display:inline-flex;align-items:center;justify-content:center;gap:8px;padding:12px 22px;line-height:1.3;transition:transform .15s ease,background-color .15s ease,border-color .15s ease,box-shadow .15s ease}
+.btn:active,button:active{transform:scale(.985)}
+.option,#quizChoices .option,#choices .option{border-radius:16px!important;min-height:52px;padding:13px 17px!important;text-align:left}
+.year,[data-map],.map-point{border-radius:15px!important}
+#quizDifficulty,#quizTimer,select{border-radius:14px!important;min-height:44px}
+header.top .menu,.sidebar-head button{border-radius:13px!important}
+header.top nav#nav a{border-radius:13px!important}
+.feature,.stat,.detail,.formbox,.history-card,.time-panel,.story-panel{border-radius:20px!important}
+@media(max-width:700px){.actions .btn,#results .actions .btn{width:100%;max-width:100%;white-space:normal}.btn,button.btn{font-size:14px;padding:12px 16px}.option{font-size:15px}}
+/* Reverse Minecraft-like XP scroll indicator. 100% at top, drains to 0% at bottom. */
+.xp-track{position:fixed;top:var(--header-height,76px);left:0;right:0;height:7px;background:#17231a;box-shadow:0 2px 8px #0009;z-index:10019;pointer-events:none;border-bottom:1px solid #31472c}
+.xp-fill{height:100%;width:100%;background:linear-gradient(90deg,#538f36 0%,#80c94b 55%,#c0f27b 100%);box-shadow:0 0 8px #77d54399;transform-origin:left center;transform:scaleX(1);will-change:transform}
+.page{scroll-margin-top:calc(var(--header-height) + 14px)!important}
+@media(prefers-reduced-motion:reduce){.btn,button{transition:none!important}}
+
+/* V10: selection-only feedback; no answer revelation until completion */
+.quiz-select{transition:background .15s,border-color .15s,transform .15s}
+.quiz-select.chosen{border-color:#d7b06c!important;background:rgba(194,147,69,.22)!important;color:#fff5de!important}
+.quiz-select:active{transform:scale(.99)}
+.quiz-hint{font-size:.95rem;color:#c9bda8}
+#quizNext{margin-top:18px}
+#quizRecord[hidden]{display:none!important}
+
+/* V11: fine cinematic scroll indicator, matching the bronze/gold palette. */
+.xp-track{top:var(--header-height,76px)!important;height:4px!important;background:rgba(33,28,24,.92)!important;border-bottom:0!important;box-shadow:0 1px 0 rgba(235,194,116,.13),0 3px 12px #0006!important;overflow:visible!important;z-index:2147483000!important}
+.xp-fill{position:relative!important;width:100%!important;height:100%!important;background:linear-gradient(90deg,#79532b 0%,#d7a75c 40%,#ffe1a0 75%,#c28c43 100%)!important;box-shadow:0 0 9px rgba(232,178,92,.38)!important;transform-origin:left center!important;transition:transform 90ms linear!important}
+.xp-end{position:absolute;right:0;top:50%;transform:translate(35%,-50%);font-size:10px;line-height:1;color:#d7ad6a;text-shadow:0 0 8px #bd8b50;opacity:.85}
+@media(max-width:700px){.xp-track{height:3px!important}.xp-end{font-size:8px}}
+@media(prefers-reduced-motion:reduce){.xp-fill{transition:none!important}}
+
+/* V12: progress belongs to the page, never above the side drawer. */
+body.nav-open .xp-track{opacity:0!important;visibility:hidden!important;z-index:0!important}
+.xp-track{z-index:1000!important;transition:opacity .18s ease}
+.site-footer{display:block!important;padding:0!important;border-top:1px solid rgba(218,173,100,.34);background:linear-gradient(160deg,#131b20,#090e13)!important;color:#d7c7ae}
+.footer-inner{max-width:1250px;margin:0 auto;padding:40px clamp(20px,5vw,70px) 22px;display:grid;grid-template-columns:1fr 1fr;gap:28px 45px}
+.footer-brand{display:flex;align-items:center;gap:16px}.footer-star{font-size:42px;color:#dcb36e;line-height:1}.footer-brand strong{display:block;color:#eac487;font:700 21px Georgia,serif;letter-spacing:1.5px}.footer-brand small{display:block;font:13px/1.6 Arial,sans-serif;color:#ada79f;margin-top:8px}
+.footer-meta{display:flex;flex-direction:column;align-items:flex-start;gap:6px;font:14px/1.5 Arial,sans-serif}.footer-label{font:700 10px Arial,sans-serif;letter-spacing:2px;color:#c89f60}.footer-meta strong{font-size:15px;color:#f0e2c9}.footer-meta>span:last-child{color:#aaa7a1}
+.footer-bottom{grid-column:1/-1;border-top:1px solid #ffffff1c;padding-top:18px;display:flex;flex-wrap:wrap;justify-content:space-between;gap:12px;color:#a7a29a;font:12px/1.5 Arial,sans-serif}
+@media(max-width:700px){.footer-inner{grid-template-columns:1fr;padding:30px 22px 20px;gap:22px}.footer-bottom{grid-column:1}.footer-brand strong{font-size:19px}}
+
+/* KOREMZ QR page */
+html,body{max-width:100%;overflow-x:clip;background:var(--bg)}
+header.top .menu{display:grid;place-items:center;line-height:1;padding:0}
+.qr-layout{display:grid;grid-template-columns:minmax(0,430px) minmax(0,1fr);gap:clamp(20px,4vw,56px);align-items:center;max-width:1050px;margin:30px auto 0}
+.qr-frame{padding:clamp(18px,3vw,34px);border:1px solid #997342;border-radius:22px;background:radial-gradient(ellipse at top,#42342155,transparent 70%),#14191e;text-align:center;box-shadow:0 24px 65px #0005}
+.qr-frame .eyebrow{letter-spacing:1.5px}.qr-frame p{color:#c8b9a1;font-size:14px}
+.qr-image-wrap{margin:25px auto 12px;background:#fff;border-radius:14px;padding:14px;max-width:330px;box-shadow:0 0 30px #caa35b33}
+.qr-image-wrap img{width:100%;height:auto;display:block;image-rendering:pixelated}
+.qr-information h3{font-size:clamp(28px,4vw,44px);line-height:1.1;margin:14px 0}.qr-information>p{color:var(--muted)}
+.qr-url{overflow-wrap:anywhere;border:1px solid #554635;background:#1a2025;border-radius:12px;padding:16px;color:#e7c58a;font:15px/1.5 Arial,sans-serif;margin:24px 0}
+.qr-actions{display:flex;gap:12px;flex-wrap:wrap}.qr-actions .btn{border-radius:12px;min-height:50px}
+.qr-feedback{min-height:1.5em;color:#e7c58a}.qr-note{border:1px solid #544534;background:#171b20;padding:17px;border-radius:12px;color:#bfb7ab;font:14px/1.6 Arial,sans-serif}
+@media(max-width:740px){.qr-layout{grid-template-columns:minmax(0,1fr);gap:24px}.qr-frame{max-width:420px;width:100%;margin:auto}.qr-information{text-align:center}.qr-actions{justify-content:center}.qr-actions .btn{flex:1 1 190px}.qr-page .pagehead{text-align:center}}
+
+
+
+/* Language switcher — compact horizontal option 2 */
+.top{display:flex;align-items:center;gap:12px;min-width:0}
+.lang-switch{margin-left:auto;display:flex;align-items:center;gap:5px;flex-shrink:0;z-index:11}
+.lang-btn{font:600 12px/1.2 system-ui,sans-serif;cursor:pointer;white-space:nowrap;color:#e9e1d4;background:#11171e;border:1px solid #504438;border-radius:999px;padding:10px 12px;min-height:40px;transition:background .2s,border-color .2s,box-shadow .2s}
+.lang-btn.selected{color:#ffe0a4;background:linear-gradient(130deg,#77532b,#302317);border-color:#d4a45d;box-shadow:0 0 0 1px #c0934d35,0 2px 12px #bd90451e}
+.lang-btn:focus-visible{outline:2px solid #e8c17c;outline-offset:3px}
+@media(max-width:500px){.top{gap:7px}.lang-switch{gap:3px}.lang-btn{font-size:10px;padding:8px 7px;min-height:36px}.brand{min-width:0}.brand span:last-child{font-size:clamp(10px,2.6vw,15px);line-height:1.08}.brandmark{font-size:19px}}
+@media(max-width:365px){.lang-btn{font-size:9px;padding:7px 5px}.top{gap:4px}}
+
+/* V13 — refined mobile layout, preserving the existing quiz and QR */
+.feature {display:flex;flex-direction:column;align-items:flex-start;min-width:0}
+.feature h3,.feature p {max-width:100%;overflow-wrap:break-word}
+.feature p {padding-right:54px}
+.feature b {right:19px;bottom:19px;flex-shrink:0}
+@media (max-width:700px) {
+  .feature-grid {gap:12px}
+  .feature {min-height:0!important;padding:21px 20px 65px!important}
+  .feature h3 {font-size:clamp(21px,5.5vw,26px);line-height:1.18;margin:14px 0 10px}
+  .feature p {font-size:15px;line-height:1.55;padding-right:0;max-width:calc(100% - 6px)}
+  .feature b {right:18px;bottom:15px;width:36px;height:36px}
+  header.top {padding:0 12px!important;gap:8px!important}
+  header.top .brand {margin-left:auto;gap:5px}
+  header.top .brand span:last-child {font-size:clamp(10px,2.8vw,14px)!important}
+  .lang-switch {order:3;margin-left:0}
+  .lang-btn {padding:8px 6px;font-size:10px;min-width:0}
+  .section-intro h2 {line-height:1.15}
+  .banner h2 {line-height:1.2}
+}
+@media (max-width:390px) {
+  header.top .brandmark {display:none}
+  header.top .menu {width:38px!important;height:38px!important;flex-basis:38px!important}
+  .lang-btn {padding:7px 5px;font-size:9px}
+  .brand b {font-size:11px!important}
+}
+
+/* V14 — mobile cards stay legible at text zoom 100–200%; arrows cannot cover copy. */
+.feature{position:relative;box-sizing:border-box;min-width:0;overflow:hidden}
+.feature h3,.feature p{overflow-wrap:anywhere}
+@media(max-width:700px){
+ .feature-grid{gap:13px!important}
+ .feature{display:grid!important;grid-template-columns:minmax(0,1fr) 40px!important;
+   grid-template-rows:auto auto auto!important;align-content:start!important;
+   align-items:start!important;column-gap:12px!important;row-gap:0!important;
+   padding:22px 20px!important;min-height:165px!important}
+ .feature>span{grid-column:1 / -1;grid-row:1}
+ .feature>h3{grid-column:1 / -1;grid-row:2;min-width:0;margin:16px 0 12px!important;
+    font-size:clamp(20px,5.5vw,27px)!important;line-height:1.2!important}
+ .feature>p{grid-column:1;grid-row:3;max-width:none!important;padding:0!important;
+    font-size:15px!important;line-height:1.5!important;margin:0!important}
+ .feature>b{position:static!important;grid-column:2;grid-row:3;align-self:end;
+    width:37px!important;height:37px!important;justify-self:end}
+ .top .lang-btn{white-space:nowrap}
+}
+@media(max-width:360px){.feature{grid-template-columns:minmax(0,1fr) 34px!important;column-gap:8px!important;padding:18px 15px!important}.feature>b{width:34px!important;height:34px!important}}
+
+@media(max-width:700px){.page{scroll-margin-top:90px}.pagehead{padding-top:16px} .quiz-meta,.question-num{overflow-wrap:anywhere} .quiz-select{line-height:1.45}}
+
+/* V18 mobile refinements: accessible layout and consistent content spacing */
+html{scroll-padding-top:90px}
+.page:not(#home){scroll-margin-top:90px}
+.history-card,.time-panel,.story-panel,.detail{overflow-wrap:anywhere}
+@media(max-width:700px){
+ header.top{min-height:68px!important}
+ .page:not(#home){padding:26px 16px 42px!important}
+ .pagehead{margin-bottom:20px}
+ .pagehead h2{font-size:clamp(30px,8vw,42px);overflow-wrap:anywhere}
+ .history-grid{gap:14px}
+ .history-card{padding:20px!important}
+ .history-card h3{font-size:clamp(24px,6.5vw,32px);line-height:1.22}
+ .history-card p{font-size:16px;line-height:1.6}
+ .history-card .date{font-size:12px;line-height:1.6;letter-spacing:1.3px}
+ .mapbox{min-height:330px}
+ .pin{font-size:12px;padding:7px}
+ .story-panel{min-height:0!important;padding:24px 20px!important}
+ .story-panel h2{font-size:clamp(29px,8vw,40px);line-height:1.2}
+ .story-panel p{font-size:17px;line-height:1.65}
+ .story-controls{gap:9px}
+ .story-controls button{min-height:46px}
+ .formbox{max-width:100%;padding:20px!important}
+ .stats{gap:10px}
+ .stat{padding:15px 12px}
+ .stat b{font-size:30px}
+ .hero{padding:50px 22px 58px}
+ .hero h1{overflow-wrap:anywhere}
+}
+
+#live20App{max-width:950px;margin:0 auto;color:#f6ead5;font:16px/1.55 system-ui,Arial}
+#live20App *{box-sizing:border-box}
+#live20App .card{border:1px solid #695238;border-radius:16px;background:#182027;padding:clamp(15px,3vw,28px);box-shadow:0 12px 45px #0005}
+#live20App h1{color:#e7ba73;margin:0 0 10px;font-size:clamp(24px,4vw,34px)}
+#live20App h2{font-size:24px}
+#live20App p{color:#c2bdb3}
+#live20App input,#live20App button{width:100%;padding:15px;border-radius:9px;font:inherit;margin:7px 0}
+#live20App input{background:#10161c;color:#fff;border:1px solid #5b5142}
+#live20App button{background:#d7ab68;color:#15120d;border:0;font-weight:700;cursor:pointer}
+#live20App button:disabled{opacity:.5}
+#live20App .option{background:#263039!important;color:#f5e9d5!important;text-align:left;border:1px solid #65563e!important;border-radius:12px!important}
+#live20App .option:hover{border-color:#e7ba73!important}
+#live20App .hidden{display:none!important}
+#live20App .bar{height:9px;border-radius:20px;background:#343d43;overflow:hidden}
+#live20App .fill{height:100%;width:100%;background:#d7ab68}
+#live20App .head{display:flex;justify-content:space-between;gap:12px;color:#e7ba73;font-weight:700}
+#live20App .error{color:#ffb6a9}
+#live20App table{border-collapse:collapse;width:100%;font-size:14px}
+#live20App td,#live20App th{padding:9px 5px;text-align:left;border-bottom:1px solid #43423d;overflow-wrap:anywhere}
+#live20_quiz{user-select:none;-webkit-user-select:none}
+#live20App .small{font-size:13px;color:#aeb3b5}
+
+.live20-one-attempt-note{margin:14px 0 18px;padding:10px 14px;border:1px solid #806c4b;border-radius:12px;background:#231f19;font-size:14px;line-height:1.6;color:#e6cc9a!important}
+#live20_done{margin:18px 0 22px;padding:20px 18px;background:#1d2e2b;border:1px solid #8aa381;border-radius:12px}
+/* HOTFIX: Mobile overflow, working QR and LIVE20 results. */
+html,body{width:100%;max-width:100%;overflow-x:clip}
+main,.page,.pagehead,.detail,.stats,.stat,.analytics-summary,.analytics-kpi,
+.qr-layout,.qr-frame,.qr-information,.qr-image-wrap{min-width:0;max-width:100%}
+.pagehead h2,.pagehead p,.detail p,.stat span,.analytics-kpi small{overflow-wrap:anywhere}
+#results .stats,#results .analytics-summary{grid-template-columns:repeat(2,minmax(0,1fr))}
+#results .detail{margin-top:18px}
+.live20-table-scroll{max-width:100%;overflow-x:auto;border:1px solid #5c4c37;border-radius:12px}
+.live20-table{border-collapse:collapse;width:100%;font:14px/1.5 Arial,sans-serif;min-width:320px}
+.live20-table td,.live20-table th{padding:12px 9px;border-bottom:1px solid #4b4336;text-align:left;overflow-wrap:anywhere}
+.live20-table th{color:#e7bb75;background:#262720}
+.live20-table tr:last-child td{border-bottom:0}
+#live20App .live20-phase{align-self:center;border:1px solid #9a7542;border-radius:20px;padding:5px 11px;font:700 12px Arial,sans-serif;letter-spacing:1px;white-space:nowrap;background:#372d20;color:#f8d398}
+#live20App .live20-phase[data-level=middle]{background:#47361f;color:#ffe2a5}
+#live20App .live20-phase[data-level=senior]{background:#552f29;color:#ffe0cb;border-color:#a56e54}
+#live20App .head{align-items:center;flex-wrap:wrap}
+#live20App .card{min-width:0;max-width:100%}
+#live20App input,#live20App button{max-width:100%;min-width:0}
+#live20App h1,#live20App h2,#live20App p,#live20App .option{overflow-wrap:anywhere}
+.qr-frame{box-sizing:border-box}.qr-image-wrap{width:min(100%,340px);overflow:hidden}.qr-image-wrap img{aspect-ratio:1/1;object-fit:contain}
+@media(max-width:700px){
+ #results .stats,#results .analytics-summary{grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}
+ #results .stat,#results .analytics-kpi{padding:16px 12px;min-height:0}
+ #results .stat b{font-size:clamp(29px,8vw,39px)}
+ #results .analytics-kpi strong{font-size:clamp(23px,7vw,31px)}
+ .page:not(#home){max-width:100vw;padding-left:clamp(12px,4vw,18px)!important;padding-right:clamp(12px,4vw,18px)!important}
+ .qr-layout{display:grid;grid-template-columns:minmax(0,1fr)}
+ .qr-frame{padding:clamp(15px,5vw,26px)!important}
+ #live20App table{display:table;max-width:100%;width:100%;table-layout:fixed}
+ #live20App th,#live20App td{overflow-wrap:anywhere}
+}
+@media(max-width:360px){#live20App .head{font-size:13px}#results .stat span{font-size:12px}}
+</style></head><body><header class="top"><button aria-controls="nav" aria-expanded="false" aria-label="Мәзірді ашу" class="menu" id="menu">☰</button><a class="brand" href="#home"><span class="brandmark">✦</span><span>QAZAQ<br/><b>RESISTANCE</b></span></a><nav aria-label="Негізгі мәзір" id="nav"><div class="sidebar-head"><strong class="drawer-brand"><span class="drawer-star">✦</span><span>QAZAQ<br/>RESISTANCE<small>БӨЛІМДЕР</small></span></strong><button aria-label="Мәзірді жабу" id="closeNav" type="button">✕</button></div><a href="#home">Басты бет</a><a href="#history">Тарих</a><a href="#map">Карта</a><a href="#timeline">Уақыт</a><a href="#story">Story</a><a href="#survey">Сауалнама</a><a href="#quiz">LIVE QUIZ 20</a><a href="#ai">AI сұхбат</a><a href="#results">Нәтижелер</a><a href="#qr">▦ QR-код</a></nav><div aria-label="Сайт тілі" class="lang-switch" role="group"><button aria-pressed="true" class="lang-btn selected" data-lang="kz" title="Қазақ тілі" type="button">🇰🇿 KZ</button><button aria-pressed="false" class="lang-btn" data-lang="ru" title="Русский язык" type="button">🇷🇺 RU</button><button aria-pressed="false" class="lang-btn" data-lang="en" title="English" type="button">🇬🇧 EN</button></div></header><div aria-label="Беттің қалған бөлігі" aria-valuemax="100" aria-valuemin="0" aria-valuenow="100" class="xp-track" role="progressbar"><div class="xp-fill" id="xpFill"></div><span aria-hidden="true" class="xp-end">✦</span></div><div aria-hidden="true" class="nav-shade" id="navShade"></div><main>
+<section class="page active" id="home"><div class="hero"><div class="hero-content"><div class="eyebrow">XVIII–XIX ҒАСЫРЛАР · ҚАЗАҚСТАН ТАРИХЫ</div><h1>QAZAQ <em>RESISTANCE</em></h1><p class="hero-lead">Қазақ жеріндегі орыс отарлауына қарсы ұлт-азаттық көтерілістер</p><p class="muted">Азаттық үшін күрестің себептерін, тарихи тұлғаларын және маңызды оқиғаларын зертте.</p><div class="actions"><a class="btn primary" href="#history">Тарихты зерттеу ↗</a><a class="btn outline" href="#survey">Сауалнамаға қатысу →</a></div></div><div class="hero-side"><span class="hero-num">1783 — 1847</span><span>ТАРИХ · ЕРЛІК · АЗАТТЫҚ</span></div></div><div class="section-intro"><span class="eyebrow">ПЛАТФОРМА МҮМКІНДІКТЕРІ</span><h2>Тарихты жаңа қырынан аш</h2></div><div class="feature-grid"><a class="feature" href="#history"><span>01 / АРХИВ</span><h3>Тарихи мәліметтер</h3><p>Көтерілістер, себептер, тұлғалар мен салдар.</p><b>↗</b></a><a class="feature" href="#map"><span>02 / ГЕОГРАФИЯ</span><h3>Интерактивті карта</h3><p>Оқиғалардың географиялық ауқымын зертте.</p><b>↗</b></a><a class="feature" href="#timeline"><span>03 / ХРОНОЛОГИЯ</span><h3>Уақыт машинасы</h3><p>Тарихи кезеңдерді жыл бойынша таңда.</p><b>↗</b></a><a class="feature" href="#story"><span>04 / СЮЖЕТ</span><h3>Interactive Story</h3><p>Тарихи деректер негізіндегі әңгіме.</p><b>↗</b></a><a class="feature" href="#survey"><span>05 / ЗЕРТТЕУ</span><h3>10 сұрақтық сауалнама</h3><p>Жауап беріп, жергілікті нәтижелерді қара.</p><b>↗</b></a><a class="feature" href="#quiz"><span>06 / БІЛІМ</span><h3>LIVE QUIZ 20</h3><p>Білімді тексеруге арналған интерактивті тест.</p><b>↗</b></a></div><div class="banner"><div><span class="eyebrow">БІЗДІҢ МАҚСАТ</span><h2>Өткенді түсіну — болашақты тану.</h2></div><a class="btn primary" href="#story">Оқиғаны бастау →</a></div></section>
+<section class="page" id="history"><div class="pagehead"><span class="eyebrow">01 / ТАРИХИ АРХИВ</span><h2>Ұлт-азаттық көтерілістер</h2><p>XVIII–XIX ғасырлардағы ірі қозғалыстар туралы қысқаша тарихи анықтамалар.</p></div><div class="history-grid" id="historyCards"></div></section>
+<section class="page" id="map"><div class="pagehead"><span class="eyebrow">02 / ТАРИХИ ГЕОГРАФИЯ</span><h2>Көтерілістер картасы</h2><p>Аймақты таңдаңыз. Бұл — географиялық дәл масштабтағы карта емес, оқытуға арналған сызбалық схема.</p></div><div class="maplayout"><div class="mapbox"><div class="mapglow"></div><div class="maptitle">ҚАЗАҚ ДАЛАСЫ <small>ТАРИХИ АЙМАҚТАР · СХЕМА</small></div><button class="pin" data-map="srym" style="left:24%;top:62%">① <small>Кіші жүз</small></button><button class="pin" data-map="isatai" style="left:33%;top:42%">② <small>Бөкей Ордасы</small></button><button class="pin" data-map="kenesary" style="left:56%;top:38%">③ <small>Орталық дала</small></button><button class="pin" data-map="kenesary" style="left:73%;top:65%">④ <small>Оңтүстік өңір</small></button></div><div class="detail" id="mapDetail"><span class="eyebrow">НҮКТЕНІ ТАҢДАҢЫЗ</span><h3>Тарихи аймақтар</h3><p>Картадағы белгіге басып, көтеріліс туралы ақпарат алыңыз.</p></div></div></section>
+<section class="page" id="timeline"><div class="pagehead"><span class="eyebrow">03 / УАҚЫТ МАШИНАСЫ</span><h2>Оқиғалар хронологиясы</h2><p>Жылды таңдап, сол кезеңдегі қозғалыстарды қараңыз.</p></div><div class="years" id="years"></div><article class="time-panel" id="timePanel"></article></section>
+<section class="page" id="story"><div class="pagehead"><span class="eyebrow">04 / INTERACTIVE STORY</span><h2>Азаттық жолы</h2><p>Тарихи деректерге негізделген интерактивті баяндау.</p></div><div class="story-panel"><div class="story-index" id="storyIndex">01 / 04</div><h2 id="storyTitle"></h2><p id="storyText"></p><div class="story-controls"><button class="btn outline" id="storyPrev">← Артқа</button><button class="btn primary" id="storyNext">Келесі бөлім →</button></div></div></section>
+<section class="page" id="survey"><div class="pagehead"><span class="eyebrow">05 / САУАЛНАМА</span><h2>Тарихи сауалнама</h2><p>10 сұрақ. Жауаптар қауіпсіз түрде серверге жіберіледі.</p></div><div class="formbox" id="surveyRoot"></div></section>
+<section class="page" id="quiz"><div class="pagehead"><span class="eyebrow">06 / LIVE QUIZ 20</span><h2>LIVE QUIZ 20 · Тарих сайысы</h2><p>20 сұрақ · 15 секунд · ТОП-3 және рейтинг</p></div><div id="live20App"><div class="card"><h1>KOREMZ · LIVE QUIZ 20</h1><p>Барлық оқушыға бірдей 20 сұрақ · 15 секунд · әр ауысуға −1 ұпай</p><p class="live20-one-attempt-note">🔒 Бір браузерде бір ғана мүмкіндік. Бетті жаңартсаңыз, сол тест жалғасады; аяқталған тест қайта ашылмайды.</p><div id="live20_login"><input id="live20_name" maxlength="100" autocomplete="name" placeholder="Аты-жөніңіз"><input id="live20_pass" type="password" placeholder="Кіру коды"><button id="live20_start">Тестті бастау</button></div><div id="live20_quiz" class="hidden"><div class="head"><span id="live20_counter"></span><span class="live20-phase" id="live20_level">Junior</span><span id="live20_timer">15 сек</span></div><div class="bar"><div class="fill" id="live20_fill"></div></div><h2 id="live20_question"></h2><div id="live20_options"></div><p class="small" id="live20_warning"></p></div><div id="live20_done" class="hidden"><h2>Тест аяқталды</h2><p id="live20_score"></p></div><p class="error" id="live20_error"></p><h2>🏆 LIVE QUIZ 20 · ТОП-3 және рейтинг</h2><p class="small">Ұпай тең болса, жылдам аяқтаған оқушы жоғары тұрады. Рейтинг сауалнамадан бөлек.</p><table><thead><tr><th>№</th><th>Оқушы</th><th>Ұпай</th><th>Уақыт</th></tr></thead><tbody id="live20_leaderboard"><tr><td colspan="4">Жүктелуде...</td></tr></tbody></table></div></div><div id="legacyQuiz" hidden style="display:none!important"><div class="pagehead"><span class="eyebrow">06 / LIVE QUIZ · DEMO</span><h2>Біліміңді сына</h2><p>Кездейсоқ 10 сұрақ таңдалады: олардың төртеуінде бірнеше дұрыс жауап болады. Сұрақтар мен жауаптар әр жаңа тестте араластырылады. Нәтиже браузерде сақталады. Соңында жауаптарыңды талдай аласың.</p></div><div class="quiz-toolbar"><label for="quizDifficulty">Деңгей</label><select id="quizDifficulty"><option value="mixed">Аралас</option><option value="easy">Бастапқы</option><option value="hard">Күрделі</option></select><label for="quizTimer">Уақыт</label><select id="quizTimer"><option value="0">Шектеусіз</option><option value="15">15 секунд</option><option selected="" value="30">30 секунд</option><option value="60">60 секунд</option></select><span class="record" id="quizRecord">Рекорд: —</span></div><div class="formbox" id="quizRoot"></div></div>
+</section>
+<section class="page" id="ai">
+<div class="pagehead"><span class="eyebrow">07 / AI СҰХБАТ</span><h2>Кенесары хан — AI сұхбат</h2><p>Жасанды интеллект көмегімен дайындалған тарихи бейне-сұхбат.</p></div>
+<div id="aiVideoGate" class="formbox" style="max-width:640px;margin:20px auto;padding:28px;border:1px solid #a78b5b;border-radius:18px;text-align:center">
+<div style="font-size:42px">🔒</div><h3>Қорғалған бейне</h3><p>Бейнені көру үшін құпия кодты енгізіңіз.</p>
+<form id="aiVideoForm"><input id="aiVideoPassword" type="password" autocomplete="off" placeholder="Құпия код" required style="padding:13px;width:100%;max-width:340px;margin:12px auto;border-radius:9px;background:#191b1c;color:white;border:1px solid #aa8e5c">
+<div><button type="submit" style="padding:12px 28px;border-radius:9px;background:#dcb36e;color:#161616;font-weight:700;cursor:pointer">Видеоны ашу →</button></div></form>
+<p id="aiVideoError" role="alert" style="color:#ff9999;display:none">Құпия код қате. Қайта енгізіңіз.</p></div>
+<div id="aiVideoContent" hidden style="max-width:1000px;margin:auto">
+<video id="kenesaryVideo" controls playsinline preload="none" style="width:100%;border-radius:16px;background:#080808" aria-label="Кенесары хан туралы AI сұхбат">
+<source src="kenesary-interview.mp4" type="video/mp4">Браузеріңіз MP4 бейнесін қолдамайды.</video>
+<p style="text-align:center;color:#b5ada1">Бұл — жасанды интеллект көмегімен жасалған тарихи реконструкция.</p>
+<button type="button" id="aiVideoLock" style="padding:10px 18px;border-radius:8px">🔒 Жабу</button></div>
+</section>
+<section class="page" id="results"><div class="pagehead"><span class="eyebrow">08 / НӘТИЖЕЛЕР ПАНЕЛІ</span><h2>Жергілікті статистика</h2><p>Ортақ сауалнама статистикасы автоматты түрде жаңартылады. LIVE QUIZ 20 рейтингі серверден жүктеледі, ал сауалнама бөлек есептеледі.</p></div><div class="stats"><div class="stat"><b id="responseCount">0</b><span>Барлық сауалнама жауаптары</span></div><div class="stat"><b id="quizScore">—</b><span>LIVE QUIZ соңғы ұпай (осы браузер)</span></div><div class="stat"><b>10</b><span>Сауалнама сұрақтары</span></div><div class="stat"><b>4</b><span>Тарихи кезең</span></div></div><div class="analytics-summary"><div class="analytics-kpi"><small>LIVE QUIZ аяқтағандар</small><strong id="quizAttempts">0</strong></div><div class="analytics-kpi"><small>LIVE QUIZ орташа ұпай</small><strong id="quizAverage">—</strong></div><div class="analytics-kpi"><small>LIVE QUIZ ең жоғары ұпай</small><strong id="quizBest">—</strong></div></div><div class="detail live20-results-block"><h3>🏆 LIVE QUIZ 20 · Рейтинг</h3><p>Бұл рейтингке тестті аяқтаған қатысушылар кіреді. Жауаптар мен ұпайлар серверде тексеріледі.</p><div class="live20-table-scroll"><table class="live20-table"><thead><tr><th>№</th><th>Қатысушы</th><th>Ұпай</th><th>Уақыт</th></tr></thead><tbody id="live20_results_board"><tr><td colspan="4">Нәтижелер жүктелуде…</td></tr></tbody></table></div></div><div class="detail"><h3>Сауалнама жауаптары</h3><p class="chart-explain">Барлық қатысушылардың анонимді жауаптары бойынша диаграммалар.</p><div id="resultBars"></div><div class="analytics-footer"><p class="muted" id="surveySummary"></p></div></div></section>
+<section class="page qr-page" id="qr"><div class="pagehead"><span class="eyebrow">09 / БӨЛІСУ</span><h2>QR-код</h2><p>QR-кодты сканерлегенде KOREMZ негізгі сайты ашылады.</p></div><div class="qr-layout"><div class="qr-frame"><span class="eyebrow">QAZAQ RESISTANCE</span><div class="qr-image-wrap"><a href="https://3ryonx7.github.io/koremz/" target="_blank" rel="noopener noreferrer" aria-label="KOREMZ негізгі сайтын ашу"><img id="siteQrImage" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAZoAAAGaCAIAAAC5ZBI0AAAHOklEQVR42u3d3YrjOBSF0fHg93/l9F0zFIOhWz7Z50hr3RZJ/FP5UECSr8/n8w/AfP+6BICcAcgZgJwByBkgZwByBiBnAHIGyBmAnAHIGYCcAcgZIGcAcgYgZwByBsgZgJwByBmAnAFyBiBnAHIGIGcAcgbIGYCcAcgZgJwBcgYgZwByBiBngJwByBmAnAHIGcD/uVMffF3XZpfy8/n89fk+v7buSq587spR1V2ruv+ricfc87tgdAYgZ4CcAcgZgJwByBkgZwByBiBnAC+6ex5Walbxs9T8+56fmzqj0+bf7/ddMDoDkDNAzgDkDEDOAOQMkDMAOQOQM4AX3RMPOrUf/MRjTs3eTs1lrzvfnvPgJ34XjM4A5AyQMwA5A5AzADkD5AxAzgDkDOBFt0vwHamd9euOue4JBj3fGaMzADkDkDNAzgDkDEDOAOQMQM4AOQNoyKqAL5k4033iaoTnv05cm4HRGSBnAHIGIGcAcgYgZ4CcAcgZgJwBPBi5KmBlbnfPY95vxvnK+T6/NnX3e97Bid8FozMAOQPkDEDOAOQMQM4AOQOQMwA5A3hR01UB+82SX5kH77X9X+u7YHQGIGcAcgbIGYCcAcgZgJwBcgYgZwARl73Gv3ShF+Z2T5xDv6Luc3ueEUZnAHIGyBmAnAHIGYCcAXIGIGcAcgbw126X4L/qZpyn5qP3nPfPd+7Rac9VMDoD/NgEkDMAOQOQM0DOAOQMQM4A5Aw4UNNnBdTNzk8d88T971euZGpFwcTnG0y8gz27YXQG+LEJIGcAcgYgZ4CcAcgZgJwByBlwoA2fFdBzPvrKa3uuGei5cqPn3vmpK3na0x6MzgA5A5AzADkDkDNAzgDkDEDOAOQMOFBsVUDdTuSpPc577q2emiW/clQ9pdYM7Hc1jM4A5AyQMwA5A5AzADkD5AxAzgDkDOBFV2r+buyEBz5JoOc6h9T5pux3nSceldEZ4McmgJwByBmAnAFyBiBnAHIGIGcAP2z4rIAVE+eyp65k3XMGUnehbr//iWtvJj79wOgM8GMTQM4A5AxAzgA5A5AzADkDkDPgQLFVAXVzyuuszITebz/41HVeuRp1/3XPr029837fQaMzwI9NADkDkDMAOQPkDEDOAOQMQM4AfrgmzrCfuPN6ao513eemVhT0vPt1V2Pinv2pe2R0BvixCSBnAHIGIGeAnAHIGYCcAcgZcKBrvznWPXfWr5t/n5rZn9p3v+fdT+27P3FHf6MzADkD5AxAzgDkDEDOADkDkDMAOQN40YbPCkjN3k7tFt/zHqVMXKsw8bkZPVcjGJ0BfmwCyBmAnAHIGSBnAHIGIGcAcgYc6E59cM/90VM7vq9IrUbYb81Az3fuefeNzgDkDEDOADkDkDMAOQOQM0DOAOQMoAnPCvjSa1fOqO4699wdv+d17jn/vufaDM8KAJAzADkD5AxAzgDkDEDOADkDkDOAr2n6rICec533myVf97kTnyRQ9yyIunt02nfQ6AzwYxNAzgDkDEDOADkDkDMAOQOQM4AfYqsC6mZgr3zuM3u6v/XOKysKUmsVVo4qtXd+3VoUozMAOQOQM0DOAOQMQM4A5AyQMwA5A2jiPu2EU7PVU/uyp+Z2p2b2163c6DmzP/Vd6LlmwOgM8GMTQM4A5AxAzgA5A5AzADkDkDPgQMetCthvTnnqmFNPTjht//u6K9nze2R0BiBngJwByBmAnAHIGSBnAHIGIGcAf6TpqoCec52f1c2Ertt3v+4JBvvtrN/zP7bn/6TRGYCcAcgZIGcAcgYgZwByBsgZgJwBfM213+7pTS90aBZ13bz/1FH1XMmQ2jv/tNUIRmeAH5sAcgYgZwByBsgZgJwByBmAnAH8EHtWQM/ZzCueZ0LXzTivO+aed7Bu/v1+Z1S3+sLoDEDOAOQMkDMAOQOQMwA5A+QMQM4Amrh7HlbPGckrs8ZTM79T5ztxR/+JZzTxP9boDEDOADkDkDMAOQOQM0DOAOQMQM4AXnRPPOiee+evvHPd7O3T9LwaqaOqW0HRc82A0RngxyaAnAHIGYCcAXIGIGcAcgYgZ8CBbpegg5U1Az13ml85357vnLqDqf3+647K6AxAzgA5A5AzADkDkDNAzgDkDEDOAF5kVUALqVnjzyauN6g735VjXrmSqRUjE59BYXQG+LEJIGcAcgYgZ4CcAcgZgJwByBlwoJGrAlL7wafOqOdO86l71HMP+9SKgp4rGYzOAOQMQM4AOQOQMwA5A5AzQM4A5Azga5quCpi4T3nd+fbcLT4177/nO/d82sPK1UjdfaMzADkD5AxAzgDkDEDOADkDkDMAOQP4I9d+++4DRmcAcgYgZwByBiBngJwByBmAnAHIGSBnAHIGIGcAcgbIGYCcAcgZgJwByBkgZwByBiBnAHIGyBmAnAHIGYCcAcgZIGcAcgYgZwByBsgZgJwByBmAnAFyBiBnAHIGIGcAv/0CGO3ob46LR48AAAAASUVORK5CYII=" alt="KOREMZ негізгі сайтына өтетін QR-код" width="300" height="300" decoding="async"/></a></div><p>Камерамен сканерлеңіз</p></div><div class="qr-information"><span class="eyebrow">САЙТҚА ЖЫЛДАМ ӨТУ</span><h3>Тарихты бірге зерттейік</h3><p>QR-кодты сканерлеген адам KOREMZ негізгі сайтына өтеді.</p><div class="qr-url" id="qrUrl"></div><div class="qr-actions"><a class="btn primary" id="qrDownload" download="KOREMZ_QR.png" href="data:image/png;base64,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">QR-кодты сақтау ↓</a><button class="btn outline" id="copyQrLink" type="button">Сілтемені көшіру</button></div><p class="qr-feedback" id="qrCopyStatus" aria-live="polite"></p><div class="qr-note">QR-код әрқашан KOREMZ негізгі сайтына апарады. Сынақ сайтындағы мекенжай әсер етпейді.</div></div></div></section></main><footer aria-label="Сайт туралы ақпарат" class="site-footer"><div class="footer-inner"><div class="footer-brand"><span aria-hidden="true" class="footer-star">✦</span><div><strong>QAZAQ RESISTANCE</strong><small>Қазақ халқының ұлт-азаттық күресі · XVIII–XIX ғғ.</small></div></div><div class="footer-meta"><span class="footer-label">ЖОБА АВТОРЫ</span><strong>І. Ердос</strong><span>1-курс студенті · Оқу жобасы</span></div><div class="footer-bottom"><span>© 2026 QAZAQ RESISTANCE. Барлық құқықтар қорғалған.</span><span>Тарихты тану — болашаққа жол</span></div></div></footer><script>
+const movements=[{id:'srym',year:'1783–1797',name:'Сырым Датұлы бастаған қозғалыс',where:'Кіші жүз',desc:'Патша әкімшілігінің отарлық саясатына, жерді пайдалануға қойылған шектеулерге және Нұралы хан билігіне наразылықтан туған қозғалыс.',outcome:'Көтеріліс Кіші жүздегі хандық билік пен отарлық басқару мәселелерін шиеленістірді.'},{id:'isatai',year:'1836–1838',name:'Исатай Тайманұлы мен Махамбет Өтемісұлы көтерілісі',where:'Бөкей Ордасы',desc:'Жер тапшылығы, әлеуметтік теңсіздік, Жәңгір ханның саясатына наразылық көтерілістің негізгі себептерінің қатарында болды.',outcome:'1838 жылы Ақбұлақ шайқасында Исатай қаза тапты; қозғалыс әлеуметтік және отарлық қайшылықтарды көрсетті.'},{id:'kenesary',year:'1837–1847',name:'Кенесары Қасымұлы бастаған көтеріліс',where:'Орта жүз, кейін қазақ даласының өзге өңірлері',desc:'Қазақ жеріндегі отарлық бекіністердің кеңеюіне және дәстүрлі саяси дербестіктің шектелуіне қарсы бағытталған ірі қозғалыс.',outcome:'1847 жылы Кенесары қаза тапты. Көтеріліс XIX ғасырдағы ең ауқымды ұлт-азаттық қозғалыстардың бірі болды.'},{id:'zholaman',year:'1820–1830-жылдар',name:'Жоламан Тіленшіұлы бастаған қарсылық',where:'Кіші жүз өңірі',desc:'Жер мәселесіне және патша өкіметінің шекаралық саясатына байланысты наразылықтың көрінісі.',outcome:'Қозғалыс отарлық қысымға қарсы күрестің жалғасқанын көрсетті.'}];
+const timeline=[{year:'1783',title:'Сырым Датұлы көтерілісінің басталуы',text:'Кіші жүзде отарлық саясат пен жер мәселесіне байланысты қарсылық күшейді.'},{year:'1820',title:'Жоламан Тіленшіұлы қозғалысының кезеңі',text:'1820–1830-жылдары Кіші жүздегі жер және шекара мәселелері төңірегінде қарсылық жалғасты.'},{year:'1836',title:'Бөкей Ордасындағы көтеріліс',text:'Исатай Тайманұлы мен Махамбет Өтемісұлы бастаған қозғалыс өрістеді.'},{year:'1837',title:'Кенесары Қасымұлы көтерілісінің басталуы',text:'Отарлық биліктің кеңеюіне қарсы күрес күшейді.'},{year:'1838',title:'Ақбұлақ шайқасы',text:'Исатай Тайманұлы осы шайқаста қаза тапты.'},{year:'1847',title:'Кенесары қозғалысының аяқталуы',text:'Кенесары Қасымұлы қаза тапты; көтеріліс аяқталды.'}];
+const story=[['Даладағы өзгерістер','XVIII ғасырдың соңында қазақ даласында жерді пайдалану мен саяси билікке қатысты қайшылықтар күшейді. Отарлық басқару тетіктері дәстүрлі өмірге ықпал етті.'],['Кіші жүздегі қарсылық','1783 жылы Сырым Датұлы бастаған көтеріліс басталды. Оның себептерінің бірі — жер мәселесі және отарлық әкімшілікке наразылық.'],['Бөкей Ордасындағы күрес','1836–1838 жылдары Исатай Тайманұлы мен Махамбет Өтемісұлы бастаған қозғалыс әлеуметтік теңсіздік пен билік саясатына қарсылық білдірді.'],['Кенесары дәуірі','1837–1847 жылдары Кенесары Қасымұлы бастаған көтеріліс қазақ даласының кең аумағын қамтыды. Бұл кезең ұлт-азаттық күрес тарихында маңызды орын алады.']];
+const survey=[{q:'Осы тақырып бойынша біліміңізді қалай бағалайсыз?',a:['Өте жақсы','Жақсы','Орташа','Әлі таныс емеспін']},{q:'Қай көтеріліс туралы көбірек білгіңіз келеді?',a:['Сырым Датұлы','Исатай–Махамбет','Кенесары Қасымұлы','Жоламан Тіленшіұлы']},{q:'Тарихты оқуда қай формат тиімді?',a:['Мәтін','Карта','Бейне','Интерактивті тест']},{q:'Көтерілістердің басты себептерін түсіну маңызды ма?',a:['Өте маңызды','Маңызды','Онша маңызды емес','Білмеймін']},{q:'Тарихи картамен жұмыс істеу сізге пайдалы бола ма?',a:['Иә','Жоқ','Мүмкін','Білмеймін']},{q:'Тарихи тұлғалардың өмірбаянын зерттеген ұнай ма?',a:['Иә','Кейде','Жоқ','Білмеймін']},{q:'Сабақта Live Quiz қолдануды қолдайсыз ба?',a:['Иә','Жоқ','Бейтараппын']},{q:'Сіздің ойыңызша тарихи дереккөзді тексеру қаншалықты маңызды?',a:['Өте маңызды','Маңызды','Маңызды емес','Білмеймін']},{q:'Осы қозғалыстардың қайсысы 1836–1838 жылдары өтті?',a:['Сырым Датұлы','Исатай–Махамбет','Кенесары Қасымұлы','Білмеймін']},{q:'Кенесары Қасымұлы көтерілісі қай жылдары өтті?',a:['1783–1797','1836–1838','1837–1847','Білмеймін']}];
+const shuffle=a=>{const b=[...a];for(let i=b.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[b[i],b[j]]=[b[j],b[i]]}return b};
+const ai=[['Көтерілістердің негізгі себептері қандай?','Негізгі себептер қатарында отарлық басқарудың күшеюі, жерге қатысты шектеулер, саяси дербестіктің тарылуы және әлеуметтік қайшылықтар болды.'],['Исатай мен Махамбеттің қозғалысы несімен ерекшеленді?','1836–1838 жылдардағы қозғалыс Бөкей Ордасында өтті. Онда жер тапшылығы мен әлеуметтік әділетсіздік мәселелері ерекше көрінді.'],['Кенесары Қасымұлы қозғалысының тарихи маңызы қандай?','1837–1847 жылдардағы көтеріліс отарлық саясатқа қарсы ірі қарсылықтардың бірі болды. Ол қазақ қоғамының саяси дербестікке ұмтылысын көрсетті.']];
+/* Public Supabase publishable key; no secret or service_role key in the browser. */
+const QRES_URL='https://ytskkywrcfabitednntx.supabase.co';
+const QRES_PUBLIC_KEY='sb_publishable_djGWdK-URf3nKcq-uHCzzw_1UdnU06z';
+async function qresFetch(path,opts={}){
+ const response=await fetch(QRES_URL+'/rest/v1/'+path,{
+  ...opts,
+  headers:{apikey:QRES_PUBLIC_KEY,'Content-Type':'application/json',...(opts.headers||{})},
+  signal:AbortSignal.timeout(12000)
+ });
+ if(!response.ok)throw new Error('Сервер қатесі: HTTP '+response.status);
+ const raw=await response.text();return raw?JSON.parse(raw):null;
+}
+const $=id=>document.getElementById(id);const read=(key,def)=>{try{return JSON.parse(localStorage.getItem(key))??def}catch{return def}};const save=(key,val)=>localStorage.setItem(key,JSON.stringify(val));
+let live20LastRoute=location.hash.slice(1)||'home';function route(){let hash=location.hash.slice(1)||'home';if(live20LastRoute==='quiz'&&hash!=='quiz'&&typeof window.live20Leave==='function')window.live20Leave();live20LastRoute=hash;if(!$(hash)||!$(hash).classList.contains('page'))hash='home';document.querySelectorAll('.page').forEach(el=>el.classList.toggle('active',el.id===hash));document.querySelectorAll('nav a').forEach(el=>el.classList.toggle('selected',el.hash==='#'+hash));$('nav').classList.remove('open');document.body.classList.remove('nav-open');$('menu').setAttribute('aria-expanded','false');window.scrollTo(0,0);document.documentElement.scrollTop=0;document.body.scrollTop=0;requestAnimationFrame(()=>window.scrollTo(0,0));if(hash==='results')renderResults()}window.addEventListener('hashchange',route);function toggleSidebar(force){
+ const open=typeof force==='boolean'?force:!$('nav').classList.contains('open');
+ $('nav').classList.toggle('open',open);
+ document.body.classList.toggle('nav-open',open);
+ $('menu').setAttribute('aria-expanded',String(open));
+}
+$('menu').onclick=()=>toggleSidebar();
+$('closeNav').onclick=()=>toggleSidebar(false);
+$('navShade').onclick=()=>toggleSidebar(false);
+document.querySelectorAll('#nav a').forEach(a=>a.addEventListener('click',()=>toggleSidebar(false)));
+document.addEventListener('keydown',e=>{if(e.key==='Escape')toggleSidebar(false)});
+
+$('historyCards').innerHTML=movements.map(m=>`<article class="history-card"><span class="date">${m.year} · ${m.where}</span><h3>${m.name}</h3><p>${m.desc}</p><p><strong>Нәтижесі:</strong> ${m.outcome}</p></article>`).join('');document.querySelectorAll('[data-map]').forEach(el=>el.onclick=()=>{const m=movements.find(x=>x.id===el.dataset.map);$('mapDetail').innerHTML=`<span class="eyebrow">${m.year} · ${m.where}</span><h3>${m.name}</h3><p>${m.desc}</p><p><b>Нәтижесі:</b> ${m.outcome}</p>`});
+$('years').innerHTML=timeline.map((x,i)=>`<button class="year" data-time="${i}">${x.year}</button>`).join('');function showTime(i){const x=timeline[i];$('timePanel').innerHTML=`<span class="eyebrow">${x.year} ЖЫЛ</span><h3>${x.title}</h3><p>${x.text}</p>`;document.querySelectorAll('.year').forEach((b,j)=>b.classList.toggle('on',i===j))}document.querySelectorAll('[data-time]').forEach(el=>el.onclick=()=>showTime(+el.dataset.time));showTime(0);
+let storyAt=0;function showStory(){const s=story[storyAt];$('storyIndex').textContent=String(storyAt+1).padStart(2,'0')+' / 04';$('storyTitle').textContent=s[0];$('storyText').textContent=s[1];$('storyPrev').disabled=storyAt===0;$('storyPrev').style.opacity=storyAt===0?'.4':'1';$('storyNext').textContent=storyAt===story.length-1?'Басынан бастау ↺':'Келесі бөлім →'}$('storyPrev').onclick=()=>{storyAt=Math.max(0,storyAt-1);showStory()};$('storyNext').onclick=()=>{storyAt=(storyAt+1)%story.length;showStory()};showStory();
+let surveyAt=0, surveyAnswers=[], surveyBusy=false;
+async function submitSurvey(){
+ if(surveyBusy)return;
+ surveyBusy=true;
+ const root=$('surveyRoot');
+ root.innerHTML='<span class="eyebrow">ЖАУАПТАР ЖІБЕРІЛУДЕ</span><h3>Сауалнама сақталуда…</h3><p>Жауаптар анонимді түрде жіберіледі.</p>';
+ try{
+  await qresFetch('qres_survey_submissions',{method:'POST',headers:{Prefer:'return=minimal'},body:JSON.stringify({answers:surveyAnswers})});
+  save('qr_survey',{answers:[...surveyAnswers],at:new Date().toISOString(),shared:true});
+  surveyBusy=false;renderSurvey();renderResults();
+ }catch(error){
+  surveyBusy=false;
+  root.innerHTML='<span class="eyebrow">БАЙЛАНЫС ҚАТЕСІ</span><h3>Жауаптар серверге жіберілмеді</h3><p>Интернетті тексеріп, қайта көріңіз. Сіздің жауаптарыңыз әзірге жоғалған жоқ.</p><button class="btn primary" id="surveyRetry">Қайта жіберу →</button><button class="btn outline" id="surveyEdit">Артқа</button>';
+  $('surveyRetry').onclick=submitSurvey;$('surveyEdit').onclick=()=>{surveyAt=survey.length-1;renderSurvey()};
+ }
+}
+function renderSurvey(){
+ if(read('qr_survey',null)){
+  $('surveyRoot').innerHTML='<span class="eyebrow">САУАЛНАМА АЯҚТАЛДЫ</span><h3>Қатысқаныңызға рақмет!</h3><p>Жауаптарыңыз ортақ статистикаға қосылды.</p><a class="btn primary" href="#results">Нәтижелерді көру →</a>';return;
+ }
+ const q=survey[surveyAt];
+ $('surveyRoot').innerHTML=`<span class="question-num">СҰРАҚ ${surveyAt+1} / ${survey.length}</span><div class="progress"><div style="width:${surveyAt/survey.length*100}%"></div></div><h3>${q.q}</h3><div id="choices"></div><button class="btn outline" id="surveyBack" ${surveyAt===0?'disabled':''}>← Алдыңғы</button>`;
+ q.a.forEach((a,i)=>{
+  const b=document.createElement('button');b.className='option'+(surveyAnswers[surveyAt]===i?' chosen':'');b.textContent=a;
+  b.onclick=()=>{if(surveyBusy)return;surveyAnswers[surveyAt]=i;if(surveyAt===survey.length-1)submitSurvey();else{surveyAt++;renderSurvey()}};
+  $('choices').appendChild(b);
+ });
+ $('surveyBack').onclick=()=>{surveyAt=Math.max(0,surveyAt-1);renderSurvey()};
+}
+renderSurvey();
+
+// Questions and answer keys are stored privately on the server.
+let quiz=[],quizAt=0,quizStarted=false,quizSelected=new Set(),quizSeconds=0,quizTimerId=null,quizToken=null,quizAnswers=[];
+const quizDifficulty=$('quizDifficulty'),quizTimer=$('quizTimer');
+function clearQuizTimer(){if(quizTimerId!==null){clearInterval(quizTimerId);quizTimerId=null}}
+function quizRecords(){const h=read('qr_quiz_history',[]);return Array.isArray(h)?h.filter(x=>Number.isFinite(x.score)&&x.total):[]}
+function showRecord(){const h=quizRecords();$('quizRecord').textContent='Рекорд: '+(h.length?Math.max(...h.map(x=>x.score))+'/10':'—')}
+function escapeQuizHtml(t){return String(t).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]))}
+async function quizRpc(name,body){
+ const response=await fetch(QRES_URL+'/rest/v1/rpc/'+name,{method:'POST',headers:{apikey:QRES_PUBLIC_KEY,'Content-Type':'application/json'},body:JSON.stringify(body),signal:AbortSignal.timeout(15000)});
+ if(!response.ok)throw new Error('HTTP '+response.status);return response.json();
+}
+async function startNewQuiz(){
+ clearQuizTimer();const root=$('quizRoot');root.innerHTML='<p class="muted">Тест жүктелуде…</p>';
+ quizDifficulty.disabled=true;quizTimer.disabled=true;$('quizRecord').hidden=true;
+ try{const session=await quizRpc('qres_start_quiz',{p_difficulty:quizDifficulty.value});
+  if(!session.token||!Array.isArray(session.questions)||session.questions.length!==10)throw Error('Invalid session');
+  quizToken=session.token;quiz=session.questions;quizAnswers=[];quizAt=0;quizStarted=true;renderQuiz();
+ }catch(e){quizStarted=false;quizDifficulty.disabled=false;quizTimer.disabled=false;root.innerHTML='<h3>Серверге қосылу мүмкін болмады</h3><p>Интернет байланысын тексеріп, қайта бастаңыз.</p><button class="btn primary" id="quizRetry">Қайталап көру ↻</button>';$('quizRetry').onclick=startNewQuiz}
+}
+async function finishQuiz(){
+ clearQuizTimer();const root=$('quizRoot');root.innerHTML='<h3>Нәтиже есептелуде…</h3>';
+ try{
+  const result=await quizRpc('qres_finish_quiz',{p_token:quizToken,p_answers:quizAnswers});
+  const saved={score:result.score,total:result.total,at:new Date().toISOString(),difficulty:quizDifficulty.value,timer:+quizTimer.value};
+  save('qr_quiz',saved);const history=quizRecords();history.push(saved);save('qr_quiz_history',history.slice(-100));
+  quizStarted=false;quizDifficulty.disabled=false;quizTimer.disabled=false;$('quizRecord').hidden=false;showRecord();renderResults();
+  root.innerHTML=`<span class="eyebrow">ТЕСТ АЯҚТАЛДЫ</span><h3>Нәтиже: ${result.score} / ${result.total}</h3><p>Дұрыс жауаптар: ${Math.round(result.score/result.total*100)}%. Жауаптарды төменнен қарай аласыз.</p><div class="quiz-review"><h3>Жауаптарды талдау</h3>${result.answers.map((a,i)=>`<div class="review-item"><strong>${i+1}. ${escapeQuizHtml(a.question)}</strong><p class="${a.correct?'review-good':'review-bad'}">Сенің жауабың: ${escapeQuizHtml(a.selected)} ${a.correct?'✓':'✕'}</p>${a.correct?'':`<p>Дұрыс жауап: ${escapeQuizHtml(a.expected)}</p>`}</div>`).join('')}</div><button class="btn primary" id="restart">Қайта бастау ↻</button>`;
+  $('restart').onclick=renderQuiz;
+ }catch(e){root.innerHTML='<h3>Нәтижені алу мүмкін болмады</h3><p>Жауаптар серверде тексеріледі. Қайталап көріңіз.</p><button class="btn primary" id="retryFinish">Қайталап көру ↻</button>';$('retryFinish').onclick=finishQuiz}
+}
+function renderQuiz(){
+ clearQuizTimer();const root=$('quizRoot');
+ if(!quizStarted){$('quizRecord').hidden=false;root.innerHTML='<span class="eyebrow">LIVE QUIZ</span><h3>10 сұрақ · 4 сұрақта бірнеше дұрыс жауап</h3><p>Дұрыс жауаптар серверде қорғалған. Тест аяқталғанда нәтиже мен талдау көрсетіледі.</p><button class="btn primary" id="quizStart">Тестті бастау →</button>';$('quizStart').onclick=startNewQuiz;showRecord();return}
+ if(quizAt>=quiz.length){finishQuiz();return}
+ const q=quiz[quizAt];quizSelected=new Set();quizSeconds=+quizTimer.value;
+ root.innerHTML=`<div class="quiz-meta"><span class="question-num">LIVE QUIZ · ${quizAt+1} / ${quiz.length}</span><strong id="quizCountdown" aria-live="off">${quizSeconds?quizSeconds+' с':'∞'}</strong></div><div class="progress"><div style="width:${quizAt/quiz.length*100}%"></div></div><h3>${escapeQuizHtml(q.q)}</h3><p class="quiz-hint">${q.multiple?'Бірнеше дұрыс жауап бар.':'Бір дұрыс жауапты таңда.'} Ұпай соңында көрсетіледі.</p><div id="quizChoices"></div><button class="btn primary" id="quizNext" disabled>${quizAt===quiz.length-1?'Тестті аяқтау →':'Келесі сұрақ →'}</button>`;
+ let submitted=false;
+ function submitQuestion(timedOut=false){if(submitted)return;submitted=true;clearQuizTimer();quizAnswers.push(timedOut?[]:[...quizSelected].sort((a,b)=>a-b));quizAt++;renderQuiz()}
+ const next=$('quizNext');next.onclick=()=>submitQuestion(false);
+ q.choices.forEach((answer,i)=>{const button=document.createElement('button');button.type='button';button.className='option quiz-select';button.setAttribute('aria-pressed','false');button.textContent=(q.multiple?'□ ':'◯ ')+answer;
+ button.onclick=()=>{if(submitted)return;if(q.multiple){if(quizSelected.has(i))quizSelected.delete(i);else quizSelected.add(i)}else{quizSelected.clear();quizSelected.add(i)}
+ document.querySelectorAll('#quizChoices .quiz-select').forEach((el,j)=>{const chosen=quizSelected.has(j);el.classList.toggle('chosen',chosen);el.setAttribute('aria-pressed',String(chosen));el.textContent=(q.multiple?(chosen?'☑ ':'□ '):(chosen?'◉ ':'◯ '))+q.choices[j]});next.disabled=quizSelected.size===0};$('quizChoices').appendChild(button)});
+ if(quizSeconds>0){quizTimerId=setInterval(()=>{if(!$('quizCountdown')){clearQuizTimer();return}quizSeconds--;const el=$('quizCountdown');el.textContent=quizSeconds+' с';el.classList.toggle('time-low',quizSeconds<=5);if(quizSeconds<=0)submitQuestion(true)},1000)}
+}
+quizDifficulty.onchange=()=>{if(!quizStarted)renderQuiz()};quizTimer.onchange=()=>{if(!quizStarted)renderQuiz()};renderQuiz();
+if ($('aiQuestions')) $('aiQuestions').innerHTML=ai.map((x,i)=>`<details class="ai-question" ${i===0?'open':''}><summary>${i+1}. ${x[0]}</summary><p>${x[1]}</p></details>`).join('');
+let resultsFetchId=0;
+async function renderResults(){
+ const ticket=++resultsFetchId;
+ $('quizScore').textContent=read('live20_last_score_2026-10-round-2',null)||'—';
+ $('quizAttempts').textContent='…';
+ $('quizAverage').textContent='…';
+ $('quizBest').textContent='…';
+ $('resultBars').innerHTML='<p class="muted">Ортақ статистика жүктелуде…</p>';
+ $('surveySummary').textContent='';
+ try{
+  const rows=await qresFetch('qres_survey_totals?select=question_index,option_index,votes&order=question_index.asc,option_index.asc');
+  if(ticket!==resultsFetchId)return;
+  const counts=Array.from({length:10},()=>[0,0,0,0]);
+  rows.forEach(r=>{if(r.question_index>=0&&r.question_index<10&&r.option_index>=0&&r.option_index<4)counts[r.question_index][r.option_index]=r.votes});
+  const total=counts[0].reduce((n,c)=>n+c,0);
+  $('responseCount').textContent=String(total);
+  $('surveySummary').textContent=total?`Жиналған анонимді сауалнама саны: ${total}. Пайыздар барлық қатысушылардың жауаптары негізінде есептелді.`:'Әзірге жауап жоқ. Алғашқы сауалнама толтырылғаннан кейін диаграммалар шығады.';
+  $('resultBars').replaceChildren();
+  if(!total){$('resultBars').innerHTML='<p class="muted">Әзірге жауап жоқ.</p>';return}
+  survey.forEach((question,i)=>{
+   const group=document.createElement('div');group.className='chart-question';const title=document.createElement('h4');title.textContent=`${i+1}. ${question.q}`;group.appendChild(title);
+   question.a.forEach((answer,j)=>{
+    const count=counts[i][j],pct=Math.round(count/total*100);
+    const row=document.createElement('div');row.className='chart-option';const label=document.createElement('div');label.className='chart-label';
+    const labelText=document.createElement('span');labelText.textContent=answer;const number=document.createElement('strong');number.textContent=`${count} · ${pct}%`;
+    label.append(labelText,number);const track=document.createElement('div');track.className='chart-track';track.setAttribute('role','img');track.setAttribute('aria-label',`${answer}: ${pct}%`);
+    const fill=document.createElement('div');fill.className='chart-fill';fill.style.width=pct+'%';track.appendChild(fill);row.append(label,track);group.appendChild(row);
+   });$('resultBars').appendChild(group);
+  });
+ }catch(error){
+  if(ticket!==resultsFetchId)return;
+  $('responseCount').textContent='—';
+  $('surveySummary').textContent='Ортақ статистиканы жүктеу мүмкін болмады. Интернет байланысын тексеріңіз.';
+  $('resultBars').innerHTML='<p class="muted">Сервермен байланыс жоқ.</p><button id="retryResults" class="btn outline">Қайталап көру ↻</button>';
+  $('retryResults').onclick=renderResults;
+ }
+}
+renderResults();route();
+
+/* V9 reverse XP progress: based on scroll position of currently visible page. */
+(function(){
+ const fill=document.getElementById('xpFill');
+ const track=document.querySelector('.xp-track');
+ if(!fill||!track)return;
+ let pending=false;
+ function update(){
+  pending=false;
+  const max=Math.max(0,document.scrollingElement.scrollHeight-window.innerHeight);
+  const y=document.scrollingElement.scrollTop;
+  const ratio=max?Math.max(0,Math.min(1,y/max)):0;
+  const remaining=Math.round((1-ratio)*100);
+  fill.style.transform='scaleX('+(remaining/100)+')';
+  track.setAttribute('aria-valuenow',String(remaining));
+  track.setAttribute('aria-valuetext',remaining+'% қалды');
+ }
+ function schedule(){if(!pending){pending=true;requestAnimationFrame(update)}}
+ window.addEventListener('scroll',schedule,{passive:true});
+ window.addEventListener('resize',schedule,{passive:true});
+ window.addEventListener('hashchange',()=>{schedule();requestAnimationFrame(update);setTimeout(update,80)});
+ const observer=new MutationObserver(schedule);
+ document.querySelectorAll('.page').forEach(page=>observer.observe(page,{attributes:true,attributeFilter:['class','style']}));
+ schedule();
+})();
+
+// QR always leads to the permanent KOREMZ main site, even from trial URLs or local files.
+(function(){
+ const target='https://3ryonx7.github.io/koremz/';
+ const png='data:image/png;base64,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';
+ const status=document.getElementById('qrCopyStatus');
+ const img=document.getElementById('siteQrImage');
+ const download=document.getElementById('qrDownload');
+ const urlText=document.getElementById('qrUrl');
+ urlText.textContent=target;
+ img.src=png;
+ img.width=300;img.height=300;
+ download.href=png;
+ download.download='KOREMZ_QR.png';
+ download.removeAttribute('target');
+ download.removeAttribute('rel');
+ download.textContent='QR-кодты сақтау ↓';
+ const copyBtn=document.getElementById('copyQrLink');
+ copyBtn.addEventListener('click',async()=>{
+   try { await navigator.clipboard.writeText(target);status.textContent='KOREMZ сілтемесі көшірілді ✓'; }
+   catch(e){status.textContent='Сілтемені қолмен көшіріңіз: '+target;}
+ });
+})();
+</script><script>
+/* Accessible KZ / RU / EN language switcher. Original text remains the source of truth. */
+(()=>{
+ const translations={"QR-кодты сканерлегенде KOREMZ негізгі сайты ашылады.":["После сканирования откроется основной сайт KOREMZ.","Scanning opens the main KOREMZ website."],"QR-кодты сканерлеген адам KOREMZ негізгі сайтына өтеді.":["QR-код ведёт на основной сайт KOREMZ.","This QR code opens the main KOREMZ website."],"QR-код әрқашан KOREMZ негізгі сайтына апарады. Сынақ сайтындағы мекенжай әсер етпейді.":["QR-код всегда ведёт на основной сайт KOREMZ, независимо от адреса тестовой версии.","The QR code always opens the main KOREMZ site, regardless of the test site's address."],"Басты бет":["Главная","Home"],"Тарих":["История","History"],"Карта":["Карта","Map"],"Уақыт":["Время","Time"],"Сауалнама":["Опрос","Survey"],"Нәтижелер":["Результаты","Results"],"AI сұхбат":["AI-интервью","AI interview"],"▦ QR-код":["▦ QR-код","▦ QR code"],"БӨЛІМДЕР":["РАЗДЕЛЫ","SECTIONS"],"Тарихты зерттеу ↗":["Изучить историю ↗","Explore history ↗"],"Сауалнамаға қатысу →":["Пройти опрос →","Take the survey →"],"Қазақ жеріндегі орыс отарлауына қарсы ұлт-азаттық көтерілістер":["Национально-освободительные восстания против российской колонизации казахских земель","National liberation uprisings against Russian colonization of Kazakh lands"],"Азаттық үшін күрестің себептерін, тарихи тұлғаларын және маңызды оқиғаларын зертте.":["Узнай о причинах борьбы за свободу, исторических личностях и ключевых событиях.","Explore the causes of the struggle for freedom, historical figures, and key events."],"Тарихты жаңа қырынан аш":["Открой историю по-новому","Discover history in a new way"],"Тарихи мәліметтер":["Исторические материалы","Historical materials"],"Ұлт-азаттық көтерілістер":["Национально-освободительные восстания","National liberation uprisings"],"XVIII–XIX ғасырлардағы ірі қозғалыстар туралы қысқаша тарихи анықтамалар.":["Краткие исторические сведения о крупных движениях XVIII–XIX веков.","Brief historical notes on major movements of the 18th–19th centuries."],"Көтерілістер картасы":["Карта восстаний","Map of uprisings"],"Аймақты таңдаңыз. Бұл — географиялық дәл масштабтағы карта емес, оқытуға арналған сызбалық схема.":["Выберите регион. Это учебная схема, а не географически точная карта.","Choose a region. This is an educational diagram, not a geographically accurate map."],"Тарихи аймақтар":["Исторические регионы","Historical regions"],"Картадағы белгіге басып, көтеріліс туралы ақпарат алыңыз.":["Нажмите на метку карты, чтобы узнать о восстании.","Tap a map marker to learn about an uprising."],"Оқиғалар хронологиясы":["Хронология событий","Timeline of events"],"Жылды таңдап, сол кезеңдегі қозғалыстарды қараңыз.":["Выберите год и изучите движения того периода.","Select a year to explore movements from that period."],"Азаттық жолы":["Путь к свободе","Path to freedom"],"Тарихи деректерге негізделген интерактивті баяндау.":["Интерактивный рассказ на основе исторических фактов.","An interactive story based on historical evidence."],"← Артқа":["← Назад","← Back"],"Келесі бөлім →":["Следующий раздел →","Next chapter →"],"Тарихи сауалнама":["Исторический опрос","History survey"],"10 сұрақ. Жауаптар қауіпсіз түрде серверге жіберіледі.":["10 вопросов. Ответы безопасно отправляются на сервер.","10 questions. Responses are securely sent to the server."],"Біліміңді сына":["Проверь свои знания","Test your knowledge"],"Кездейсоқ 10 сұрақ таңдалады: олардың төртеуінде бірнеше дұрыс жауап болады. Сұрақтар мен жауаптар әр жаңа тестте араластырылады. Нәтиже браузерде сақталады. Соңында жауаптарыңды талдай аласың.":["Выбираются 10 случайных вопросов, четыре из них — с несколькими правильными ответами. Порядок вопросов и вариантов меняется. Результат сохраняется в браузере.","Ten random questions are selected, four with multiple correct answers. Questions and choices are shuffled. Results are stored in your browser."],"Деңгей":["Уровень","Difficulty"],"Аралас":["Смешанный","Mixed"],"Бастапқы":["Начальный","Beginner"],"Күрделі":["Сложный","Advanced"],"Шектеусіз":["Без ограничения","Unlimited"],"15 секунд":["15 секунд","15 seconds"],"30 секунд":["30 секунд","30 seconds"],"60 секунд":["60 секунд","60 seconds"],"Виртуалды тарих оқытушысы":["Виртуальный преподаватель истории","Virtual history tutor"],"Үш сұрақтан тұратын дайын сценарий. AI бейне және дауыс генерациясы әзірге қосылмаған.":["Готовый сценарий из трёх вопросов. AI-видео и озвучка пока не подключены.","A prepared three-question script. AI video and voice are not yet enabled."],"Жергілікті статистика":["Локальная статистика","Local statistics"],"Ортақ сауалнама статистикасы автоматты түрде жаңартылады. LIVE QUIZ 20 рейтингі серверден жүктеледі, ал сауалнама бөлек есептеледі.":["Общая статистика опроса обновляется автоматически. Результаты теста хранятся только на вашем устройстве.","Shared survey statistics update automatically. Quiz results are stored only on your device."],"Барлық сауалнама жауаптары":["Все ответы опроса","All survey responses"],"Соңғы тест нәтижесі":["Последний результат теста","Latest quiz result"],"Сауалнама сұрақтары":["Вопросы опроса","Survey questions"],"Тарихи кезең":["Исторические периоды","Historical periods"],"Тест саны (осы браузер)":["Количество тестов (этот браузер)","Quizzes taken (this browser)"],"Орташа нәтиже":["Средний результат","Average score"],"Ең жоғары нәтиже":["Лучший результат","Best score"],"Сауалнама жауаптары":["Ответы опроса","Survey responses"],"Бұл QR-код арқылы KOREMZ сайтына жылдам өтуге болады. Презентацияда немесе достарыңызбен бөлісу үшін қолданыңыз.":["Этот QR-код ведёт на сайт KOREMZ. Используйте его в презентации или поделитесь с друзьями.","This QR code opens the KOREMZ website. Use it in a presentation or share it with friends."],"Камерамен сканерлеңіз":["Сканируйте камерой","Scan with your camera"],"Тарихты бірге зерттейік":["Изучаем историю вместе","Explore history together"],"QR-кодты сканерлеген адам KOREMZ сайтының басты бетіне өтеді.":["Сканирование QR-кода откроет главную страницу KOREMZ.","Scanning the QR code opens the KOREMZ homepage."],"↓ QR жүктеу":["↓ Скачать QR","↓ Download QR"],"▣ Сілтемені көшіру":["▣ Скопировать ссылку","▣ Copy link"],"QR-код":["QR-код","QR code"],"Бөлісу":["Поделиться","Share"],"Қазақ тілі":["Казахский","Kazakh"],"Сайтқа жылдам өту":["Быстрый переход на сайт","Quick website access"],"Кіші жүз":["Младший жуз","Junior Zhuz"],"Бөкей Ордасы":["Букеевская Орда","Bukey Horde"],"Орталық дала":["Центральная степь","Central Steppe"],"Оңтүстік өңір":["Южный регион","Southern region"],"QR-кодты сканерлегенде KOREMZ негізгі сайты ашылады.":["QR-код ведёт на основной сайт KOREMZ.", "This QR code opens the main KOREMZ website."],"QR-кодты сканерлеген адам KOREMZ негізгі сайтына өтеді.":["QR-код открывает основной сайт KOREMZ.", "Scanning the QR code opens the main KOREMZ website."],"QR-код әрқашан KOREMZ негізгі сайтына апарады. Сынақ сайтындағы мекенжай әсер етпейді.":["QR-код всегда ведёт на основной сайт KOREMZ независимо от адреса тестовой версии.", "The QR code always opens the main KOREMZ site, even from the test site."],"QR-кодты ашу ↗":["Открыть QR-код ↗", "Open QR code ↗"],"Сілтемені көшіру":["Скопировать ссылку", "Copy link"],"10 сұрақ · 4 сұрақта бірнеше дұрыс жауап":["10 вопросов · 4 с несколькими правильными ответами", "10 questions · 4 with multiple correct answers"],"Дұрыс жауаптар серверде қорғалған. Тест аяқталғанда нәтиже мен талдау көрсетіледі.":["Правильные ответы защищены на сервере. Результат и разбор появятся после теста.", "Correct answers are protected on the server. Results and review appear after the quiz."],"Тестті бастау →":["Начать тест →", "Start quiz →"],"Тест жүктелуде…":["Тест загружается…", "Loading quiz…"],"Серверге қосылу мүмкін болмады":["Не удалось подключиться к серверу", "Could not connect to server"],"Интернет байланысын тексеріп, қайта бастаңыз.":["Проверьте интернет и попробуйте снова.", "Check your connection and try again."],"Сервермен байланыс жоқ.":["Нет связи с сервером.", "Cannot reach server."]};
+
+ Object.assign(translations,{"Даладағы өзгерістер": ["Перемены в степи", "Changes in the steppe"], "XVIII ғасырдың соңында қазақ даласында жерді пайдалану мен саяси билікке қатысты қайшылықтар күшейді. Отарлық басқару тетіктері дәстүрлі өмірге ықпал етті.": ["К концу XVIII века в казахской степи обострились противоречия вокруг землепользования и политической власти. Колониальное управление влияло на традиционный уклад жизни.", "By the late eighteenth century, tensions over land use and political authority had grown in the Kazakh steppe. Colonial administration affected traditional ways of life."], "Кіші жүздегі қарсылық": ["Сопротивление в Младшем жузе", "Resistance in the Junior Zhuz"], "1783 жылы Сырым Датұлы бастаған көтеріліс басталды. Оның себептерінің бірі — жер мәселесі және отарлық әкімшілікке наразылық.": ["В 1783 году началось восстание под руководством Сырыма Датулы. Среди его причин были земельный вопрос и недовольство колониальной администрацией.", "In 1783, an uprising led by Syrym Datuly began. Its causes included land disputes and opposition to colonial administration."], "Бөкей Ордасындағы күрес": ["Борьба в Букеевской Орде", "Struggle in the Bukey Horde"], "1836–1838 жылдары Исатай Тайманұлы мен Махамбет Өтемісұлы бастаған қозғалыс әлеуметтік теңсіздік пен билік саясатына қарсылық білдірді.": ["В 1836–1838 годах движение под руководством Исатая Тайманулы и Махамбета Утемисулы выступило против социального неравенства и политики властей.", "In 1836–1838, a movement led by Isatay Taimanuly and Makhambet Otemisuly opposed social inequality and government policies."], "Кенесары дәуірі": ["Эпоха Кенесары", "The era of Kenesary"], "1837–1847 жылдары Кенесары Қасымұлы бастаған көтеріліс қазақ даласының кең аумағын қамтыды. Бұл кезең ұлт-азаттық күрес тарихында маңызды орын алады.": ["В 1837–1847 годах восстание под руководством Кенесары Касымулы охватило обширные территории казахской степи. Этот период занимает важное место в истории национально-освободительной борьбы.", "From 1837 to 1847, the uprising led by Kenesary Kasymuly spread across large parts of the Kazakh steppe. It is a significant chapter in the history of national liberation movements."], "Басынан бастау ↺": ["Начать сначала ↺", "Start again ↺"], "10 сұрақ. Жауаптар қауіпсіз түрде серверге жіберіледі.": ["10 вопросов. Ответы безопасно отправляются на сервер.", "10 questions. Responses are securely sent to the server."], "Ортақ сауалнама статистикасы автоматты түрде жаңартылады. LIVE QUIZ 20 рейтингі серверден жүктеледі, ал сауалнама бөлек есептеледі.": ["Общая статистика опроса обновляется автоматически. Результаты теста сохраняются только на вашем устройстве.", "Shared survey statistics update automatically. Quiz results are stored only on your device."], "Осы тақырып бойынша біліміңізді қалай бағалайсыз?": ["Как вы оцениваете свои знания по этой теме?", "How would you rate your knowledge of this topic?"], "Қай көтеріліс туралы көбірек білгіңіз келеді?": ["О каком восстании вы хотели бы узнать больше?", "Which uprising would you like to learn more about?"], "Тарихты оқуда қай формат тиімді?": ["Какой формат наиболее эффективен для изучения истории?", "Which format works best for learning history?"], "Көтерілістердің басты себептерін түсіну маңызды ма?": ["Важно ли понимать основные причины восстаний?", "Is it important to understand the main causes of the uprisings?"], "Тарихи картамен жұмыс істеу сізге пайдалы бола ма?": ["Полезна ли вам работа с исторической картой?", "Would working with a historical map help you?"], "Тарихи тұлғалардың өмірбаянын зерттеген ұнай ма?": ["Вам нравится изучать биографии исторических личностей?", "Do you enjoy studying historical figures?"], "Сабақта Live Quiz қолдануды қолдайсыз ба?": ["Поддерживаете ли вы использование Live Quiz на уроках?", "Would you support using Live Quiz in class?"], "Сіздің ойыңызша тарихи дереккөзді тексеру қаншалықты маңызды?": ["Насколько важно проверять исторические источники?", "How important is it to verify historical sources?"], "Осы қозғалыстардың қайсысы 1836–1838 жылдары өтті?": ["Какое из этих движений происходило в 1836–1838 годах?", "Which of these movements took place in 1836–1838?"], "Кенесары Қасымұлы көтерілісі қай жылдары өтті?": ["В какие годы происходило восстание Кенесары Касымулы?", "When did the uprising of Kenesary Kasymuly take place?"], "Өте жақсы": ["Отлично", "Excellent"], "Жақсы": ["Хорошо", "Good"], "Орташа": ["Средне", "Average"], "Әлі таныс емеспін": ["Пока не знаком(а)", "Not familiar yet"], "Мәтін": ["Текст", "Text"], "Бейне": ["Видео", "Video"], "Интерактивті тест": ["Интерактивный тест", "Interactive quiz"], "Өте маңызды": ["Очень важно", "Very important"], "Маңызды": ["Важно", "Important"], "Онша маңызды емес": ["Не очень важно", "Not very important"], "Маңызды емес": ["Не важно", "Not important"], "Білмеймін": ["Не знаю", "Not sure"], "Иә": ["Да", "Yes"], "Жоқ": ["Нет", "No"], "Мүмкін": ["Возможно", "Maybe"], "Кейде": ["Иногда", "Sometimes"], "Бейтараппын": ["Нейтрально", "Neutral"], "Көтерілістердің негізгі себептері қандай?": ["Каковы основные причины восстаний?", "What were the main causes of the uprisings?"], "Негізгі себептер қатарында отарлық басқарудың күшеюі, жерге қатысты шектеулер, саяси дербестіктің тарылуы және әлеуметтік қайшылықтар болды.": ["Среди основных причин были усиление колониального управления, земельные ограничения, сокращение политической самостоятельности и социальные противоречия.", "Major causes included stronger colonial rule, restrictions on land, declining political autonomy, and social tensions."], "Исатай мен Махамбеттің қозғалысы несімен ерекшеленді?": ["Чем отличалось движение Исатая и Махамбета?", "What distinguished the movement of Isatay and Makhambet?"], "1836–1838 жылдардағы қозғалыс Бөкей Ордасында өтті. Онда жер тапшылығы мен әлеуметтік әділетсіздік мәселелері ерекше көрінді.": ["Движение 1836–1838 годов происходило в Букеевской Орде. Особую роль сыграли нехватка земли и социальная несправедливость.", "The 1836–1838 movement took place in the Bukey Horde. Land shortages and social injustice were central issues."], "Кенесары Қасымұлы қозғалысының тарихи маңызы қандай?": ["Каково историческое значение движения Кенесары Касымулы?", "What was the historical significance of Kenesary Kasymuly’s movement?"], "1837–1847 жылдардағы көтеріліс отарлық саясатқа қарсы ірі қарсылықтардың бірі болды. Ол қазақ қоғамының саяси дербестікке ұмтылысын көрсетті.": ["Восстание 1837–1847 годов стало одним из крупнейших выступлений против колониальной политики. Оно выразило стремление казахского общества к политической самостоятельности.", "The 1837–1847 uprising was one of the largest movements against colonial policy and reflected the Kazakh people’s pursuit of political autonomy."]});
+
+ Object.assign(translations,{"01 / АРХИВ": ["01 / АРХИВ", "01 / ARCHIVE"], "02 / ГЕОГРАФИЯ": ["02 / ГЕОГРАФИЯ", "02 / GEOGRAPHY"], "03 / ХРОНОЛОГИЯ": ["03 / ХРОНОЛОГИЯ", "03 / TIMELINE"], "04 / СЮЖЕТ": ["04 / СЮЖЕТ", "04 / STORY"], "05 / ЗЕРТТЕУ": ["05 / ИССЛЕДОВАНИЕ", "05 / RESEARCH"], "06 / БІЛІМ": ["06 / ЗНАНИЯ", "06 / LEARNING"], "Көтерілістер, себептер, тұлғалар мен салдар.": ["Восстания, причины, личности и последствия.", "Uprisings, causes, historical figures and consequences."], "Интерактивті карта": ["Интерактивная карта", "Interactive map"], "Оқиғалардың географиялық ауқымын зертте.": ["Изучи географию исторических событий.", "Explore where historical events took place."], "Уақыт машинасы": ["Машина времени", "Time machine"], "Тарихи кезеңдерді жыл бойынша таңда.": ["Выбирай исторические периоды по годам.", "Explore historical periods by year."], "Тарихи деректер негізіндегі әңгіме.": ["Рассказ на основе исторических фактов.", "A story based on historical facts."], "10 сұрақтық сауалнама": ["Опрос из 10 вопросов", "10-question survey"], "Жауап беріп, жергілікті нәтижелерді қара.": ["Ответь на вопросы и посмотри результаты.", "Answer the questions and see the results."], "10 сұрақтық тест": ["Тест из 10 вопросов", "10-question quiz"], "Білімді тексеруге арналған интерактивті тест.": ["Интерактивный тест для проверки знаний.", "An interactive test of your knowledge."], "БІЗДІҢ МАҚСАТ": ["НАША ЦЕЛЬ", "OUR MISSION"], "Өткенді түсіну — болашақты тану.": ["Понять прошлое — познать будущее.", "Understand the past to shape the future."], "Оқиғаны бастау →": ["Начать путешествие →", "Begin the journey →"], "ВИРТУАЛДЫ ТАРИХ ОҚЫТУШЫСЫ": ["ВИРТУАЛЬНЫЙ ПРЕПОДАВАТЕЛЬ ИСТОРИИ", "VIRTUAL HISTORY TUTOR"], "Мәтіндік демо · тарихи тұлғаның шынайы сөзі емес": ["Текстовая демонстрация · не подлинные слова исторического деятеля", "Text demo · not an authentic historical quotation"], "СҰХБАТ СЦЕНАРИЙІ": ["СЦЕНАРИЙ ИНТЕРВЬЮ", "INTERVIEW SCRIPT"], "Сырым Датұлы бастаған қозғалыс": ["Восстание Сырыма Датулы", "Syrym Datuly uprising"], "Исатай Тайманұлы мен Махамбет Өтемісұлы көтерілісі": ["Восстание Исатая Тайманулы и Махамбета Утемисулы", "Isatay Taimanuly and Makhambet Otemisuly uprising"], "Кенесары Қасымұлы көтерілісі": ["Восстание Кенесары Касымулы", "Kenesary Kasymuly uprising"], "Нәтижесі:": ["Итог:", "Outcome:"], "Нәтижесі": ["Итог", "Outcome"], "1783–1797 · Кіші жүз": ["1783–1797 · Младший жуз", "1783–1797 · Junior Zhuz"], "Патша әкімшілігінің отарлық саясатына, жерді пайдалануға қойылған шектеулерге және Нұралы хан билігіне наразылықтан туған қозғалыс.": ["Движение возникло из-за недовольства колониальной политикой царской администрации, ограничениями землепользования и властью хана Нуралы.", "A movement sparked by opposition to tsarist colonial policies, restrictions on land use and the rule of Nuraly Khan."], "Көтеріліс Кіші жүздегі хандық билік пен отарлық басқару мәселелерін шиеленістірді.": ["Восстание обострило вопросы ханской власти и колониального управления в Младшем жузе.", "The uprising intensified tensions over khan authority and colonial administration in the Junior Zhuz."], "Бөкей Ордасы": ["Букеевская Орда", "Bukey Horde"], "Кіші жүз": ["Младший жуз", "Junior Zhuz"], "Рекорд:": ["Рекорд:", "Best score:"], "Уақыт": ["Время", "Time"], "30 секунд": ["30 секунд", "30 seconds"], "15 секунд": ["15 секунд", "15 seconds"], "60 секунд": ["60 секунд", "60 seconds"], "Шектеусіз": ["Без ограничения", "Unlimited"], "QR-кодты сақтау ↓": ["Сохранить QR-код ↓", "Save QR code ↓"], "Көрсету": ["Показать", "Show"], "Қайталап көру ↻": ["Повторить ↻", "Try again ↻"]});
+
+ Object.assign(translations,{"Көтерілістердің негізгі себептері қандай?": ["Каковы главные причины восстаний?", "What were the main causes of the uprisings?"], "Исатай мен Махамбеттің қозғалысы несімен ерекшеленді?": ["Чем отличалось движение Исатая и Махамбета?", "What distinguished Isatay and Makhambet's movement?"], "Кенесары Қасымұлы қозғалысының тарихи маңызы қандай?": ["Каково историческое значение движения Кенесары Касымулы?", "What was the historical significance of Kenesary Kasymuly's movement?"], "Сырым Датұлы көтерілісінің басталуы": ["Начало восстания Сырыма Датулы", "Beginning of Syrym Datuly's uprising"], "Кіші жүзде отарлық саясат пен жер мәселесіне байланысты қарсылық күшейді.": ["В Младшем жузе усилилось сопротивление колониальной политике и земельным ограничениям.", "Resistance to colonial policies and land restrictions grew in the Junior Zhuz."], "Жоламан Тіленшіұлы қозғалысының кезеңі": ["Период движения Жоламана Тленшиулы", "Period of Zholaman Tilenshiuly's movement"], "1820–1830-жылдары Кіші жүздегі жер және шекара мәселелері төңірегінде қарсылық жалғасты.": ["В 1820–1830-х годах в Младшем жузе продолжалось сопротивление по земельным и пограничным вопросам.", "Resistance over land and border issues continued in the Junior Zhuz during the 1820s–1830s."], "1836–1838 жылдардағы көтеріліс": ["Восстание 1836–1838 годов", "The uprising of 1836–1838"], "Кенесары Қасымұлы қозғалысының басталуы": ["Начало движения Кенесары Касымулы", "Beginning of Kenesary Kasymuly's movement"], "Кенесары Қасымұлының хан сайлануы": ["Избрание Кенесары Касымулы ханом", "Kenesary Kasymuly elected khan"], "Кенесары Қасымұлы көтерілісінің аяқталуы": ["Завершение восстания Кенесары Касымулы", "End of Kenesary Kasymuly's uprising"], "ЖЫЛ": ["ГОД", "YEAR"], "НҮКТЕНІ ТАҢДАҢЫЗ": ["ВЫБЕРИТЕ МЕТКУ", "SELECT A MARKER"], "ҚАЗАҚ ДАЛАСЫ": ["КАЗАХСКАЯ СТЕПЬ", "KAZAKH STEPPE"], "ТАРИХИ АЙМАҚТАР · СХЕМА": ["ИСТОРИЧЕСКИЕ РЕГИОНЫ · СХЕМА", "HISTORICAL REGIONS · DIAGRAM"], "СҰРАҚ": ["ВОПРОС", "QUESTION"], "СҰРАҚ 1 / 10": ["ВОПРОС 1 / 10", "QUESTION 1 / 10"], "← Алдыңғы": ["← Назад", "← Previous"], "Келесі сұрақ →": ["Следующий вопрос →", "Next question →"], "Бір дұрыс жауапты таңда. Ұпай соңында көрсетіледі.": ["Выберите один правильный ответ. Баллы появятся в конце.", "Select one correct answer. Your score will appear at the end."], "Бір дұрыс жауапты таңда.": ["Выберите один правильный ответ.", "Select one correct answer."], "Бірнеше дұрыс жауап бар.": ["Есть несколько правильных ответов.", "There are multiple correct answers."], "САУАЛНАМА АЯҚТАЛДЫ": ["ОПРОС ЗАВЕРШЁН", "SURVEY COMPLETED"], "Қатысқаныңызға рақмет!": ["Спасибо за участие!", "Thank you for participating!"], "Жауаптарыңыз ортақ статистикаға қосылды.": ["Ваши ответы добавлены в общую статистику.", "Your responses were added to the shared statistics."], "Нәтижелерді көру →": ["Посмотреть результаты →", "View results →"], "ЖАУАПТАР ЖІБЕРІЛУДЕ": ["ОТПРАВКА ОТВЕТОВ", "SENDING RESPONSES"], "Сауалнама сақталуда…": ["Сохранение опроса…", "Saving survey…"], "Жауаптар анонимді түрде жіберіледі.": ["Ответы отправляются анонимно.", "Responses are submitted anonymously."], "БАЙЛАНЫС ҚАТЕСІ": ["ОШИБКА СОЕДИНЕНИЯ", "CONNECTION ERROR"], "Жауаптар серверге жіберілмеді": ["Ответы не отправлены на сервер", "Responses were not sent to the server"], "Интернетті тексеріп, қайта көріңіз. Сіздің жауаптарыңыз әзірге жоғалған жоқ.": ["Проверьте интернет и повторите попытку. Ваши ответы пока не потеряны.", "Check your internet connection and try again. Your responses have not been lost."], "Қайта жіберу →": ["Отправить снова →", "Resend →"], "Нәтиже есептелуде…": ["Подсчитываем результат…", "Calculating result…"], "ТЕСТ АЯҚТАЛДЫ": ["ТЕСТ ЗАВЕРШЁН", "QUIZ COMPLETED"], "Жауаптарды талдау": ["Разбор ответов", "Answer review"], "Нәтижені алу мүмкін болмады": ["Не удалось получить результат", "Could not retrieve result"], "Жауаптар серверде тексеріледі. Қайталап көріңіз.": ["Ответы проверяются на сервере. Попробуйте ещё раз.", "Answers are checked on the server. Please try again."], "Ортақ статистика жүктелуде…": ["Загрузка общей статистики…", "Loading shared statistics…"], "ЖОБА АВТОРЫ": ["АВТОР ПРОЕКТА", "PROJECT AUTHOR"], "1-курс студенті · Оқу жобасы": ["Студент 1-го курса · Учебный проект", "First-year student · Educational project"], "Қазақ халқының ұлт-азаттық күресі · XVIII–XIX ғғ.": ["Национально-освободительная борьба казахского народа · XVIII–XIX вв.", "Kazakh national liberation struggle · 18th–19th centuries"], "Тарихты тану — болашаққа жол": ["Познавать историю — путь в будущее", "Understanding history opens the way to the future"], "Сырым Датұлы": ["Сырым Датулы", "Syrym Datuly"], "Исатай–Махамбет": ["Исатай–Махамбет", "Isatay–Makhambet"], "Кенесары Қасымұлы": ["Кенесары Касымулы", "Kenesary Kasymuly"], "Жоламан Тіленшіұлы": ["Жоламан Тленшиулы", "Zholaman Tilenshiuly"], "Нәтиже:": ["Результат:", "Score:"], "Дұрыс жауаптар:": ["Правильные ответы:", "Correct answers:"], "Жауаптарды төменнен қарай аласыз.": ["Ответы можно посмотреть ниже.", "You can review your answers below."], "1820 ЖЫЛ": ["1820 ГОД", "1820 YEAR"], "1783 ЖЫЛ": ["1783 ГОД", "1783 YEAR"], "СҰРАҚ 9 / 10": ["ВОПРОС 9 / 10", "QUESTION 9 / 10"], "Кенесары Қасымұлы қай жылы хан сайланды?": ["В каком году Кенесары Касымулы был избран ханом?", "In which year was Kenesary Kasymuly elected khan?"], "Кенесары Қасымұлы кімнің немересі?": ["Чьим внуком был Кенесары Касымулы?", "Whose grandson was Kenesary Kasymuly?"], "Жәңгір ханның": ["Хана Жангира", "Khan Zhangir"], "Тәуке ханның": ["Хана Тауке", "Khan Tauke"], "Әбілқайыр ханның": ["Хана Абулхаира", "Khan Abulkhair"], "Абылай ханның": ["Хана Абылая", "Khan Ablai"]});
+ Object.assign(translations,{"Жер тапшылығы, әлеуметтік теңсіздік, Жәңгір ханның саясатына наразылық көтерілістің негізгі себептерінің қатарында болды.": ["Нехватка земли, социальное неравенство и недовольство политикой хана Жангира были основными причинами восстания.", "Land shortages, social inequality, and opposition to Khan Zhangir’s policies were among the main causes of the uprising."], "1838 жылы Ақбұлақ шайқасында Исатай қаза тапты; қозғалыс әлеуметтік және отарлық қайшылықтарды көрсетті.": ["Исатай погиб в сражении при Акбулаке в 1838 году; движение выявило социальные и колониальные противоречия.", "Isatay died in the Battle of Akbulak in 1838; the movement exposed social and colonial tensions."], "Қазақ жеріндегі отарлық бекіністердің кеңеюіне және дәстүрлі саяси дербестіктің шектелуіне қарсы бағытталған ірі қозғалыс.": ["Крупное движение против расширения колониальных укреплений и ограничения традиционной политической самостоятельности.", "A major movement against expanding colonial forts and restrictions on traditional political autonomy."], "1847 жылы Кенесары қаза тапты. Көтеріліс XIX ғасырдағы ең ауқымды ұлт-азаттық қозғалыстардың бірі болды.": ["Кенесары погиб в 1847 году. Восстание стало одним из крупнейших национально-освободительных движений XIX века.", "Kenesary died in 1847. The uprising was one of the largest national liberation movements of the nineteenth century."], "Жер мәселесіне және патша өкіметінің шекаралық саясатына байланысты наразылықтың көрінісі.": ["Проявление недовольства земельным вопросом и пограничной политикой царских властей.", "Resistance driven by land disputes and the tsarist government’s border policies."], "Қозғалыс отарлық қысымға қарсы күрестің жалғасқанын көрсетті.": ["Движение показало продолжение сопротивления колониальному давлению.", "The movement demonstrated continuing resistance to colonial pressure."], "Орта жүз, кейін қазақ даласының өзге өңірлері": ["Средний жуз, затем другие районы казахской степи", "Middle Zhuz, later other regions of the Kazakh steppe"], "Кіші жүз өңірі": ["Территория Младшего жуза", "Junior Zhuz region"], "1820–1830-жылдар": ["1820–1830-е годы", "1820s–1830s"], "Басынан бастау ↺": ["Начать заново ↺", "Start again ↺"]});
+ let current='kz';
+ const originals=new WeakMap();
+ const skip=new Set(['SCRIPT','STYLE','NOSCRIPT','TEXTAREA']);
+ function translate(root){
+   const walker=document.createTreeWalker(root,NodeFilter.SHOW_TEXT);
+   const nodes=[];while(walker.nextNode())nodes.push(walker.currentNode);
+   for(const node of nodes){
+     const parent=node.parentElement;
+     if(!parent||skip.has(parent.tagName)||parent.closest('.lang-switch'))continue;
+     const raw=node.nodeValue;
+     if(!originals.has(node))originals.set(node,raw);
+     const original=originals.get(node);
+     const trimmed=original.trim();
+     let pair=translations[trimmed];
+     let base=trimmed;
+     if(!pair){
+       for(const [key,values] of Object.entries(translations)){
+         if(values.includes(trimmed)){base=key;pair=values;break}
+       }
+     }
+     if(!pair){
+       const match=trimmed.match(/^СҰРАҚ (\d+) \/ (\d+)$/);
+       if(match)pair=['ВОПРОС '+match[1]+' / '+match[2], 'QUESTION '+match[1]+' / '+match[2]];
+     }
+     if(!pair){
+       const match=trimmed.match(/^(\d{4}) ЖЫЛ$/);
+       if(match)pair=[match[1]+' ГОД',match[1]+' YEAR'];
+     }
+     if(!pair)continue;
+     const next=current==='kz'?base:pair[current==='ru'?0:1];
+     const leading=original.match(/^\s*/)[0],trailing=original.match(/\s*$/)[0];
+     const desired=leading+next+trailing;
+     if(node.nodeValue!==desired)node.nodeValue=desired;
+   }
+ }
+ function setLanguage(lang){
+   if(!['kz','ru','en'].includes(lang))return;
+   current=lang;document.documentElement.lang=lang==='kz'?'kk':lang;
+   document.querySelectorAll('.lang-btn').forEach(btn=>{
+     const active=btn.dataset.lang===lang;
+     btn.classList.toggle('selected',active);btn.setAttribute('aria-pressed',String(active));
+   });
+   try{localStorage.setItem('koremz-language',lang)}catch(e){}
+   translate(document.body);
+ }
+ document.querySelectorAll('.lang-btn').forEach(btn=>btn.addEventListener('click',()=>setLanguage(btn.dataset.lang)));
+ let scheduled=false;
+ const observer=new MutationObserver(()=>{
+   if(scheduled)return;scheduled=true;
+   queueMicrotask(()=>{scheduled=false;observer.disconnect();translate(document.body);observer.observe(document.body,{childList:true,subtree:true});});
+ });
+ observer.observe(document.body,{childList:true,subtree:true});
+ let saved='kz';try{saved=localStorage.getItem('koremz-language')||'kz'}catch(e){}
+ setLanguage(saved);
+})();
+</script><script>
+(()=>{
+
+// Paste the existing KOREMZ publishable/anon key below. NEVER put service_role here.
+const SUPABASE_URL='https://urtkmsucwepccquebgct.supabase.co';
+const SUPABASE_PUBLISHABLE_KEY='sb_publishable_Tc6w5BpkeGz4rZzrUN_4vQ_R6c1W41c';
+// Change this round identifier when the teacher starts a new competition.
+const LIVE20_ROUND='2026-10-round-2';
+const ATTEMPT_KEY='koremz_live20_attempt_'+LIVE20_ROUND;
+let sid='',token='',current=null,timeout=null,clock=null,loading=false,finished=false,hiddenCount=0,visibilityReady=false,pendingLeaves=0,lastLeave=0;
+function readAttempt(){
+ try {
+  const current=localStorage.getItem(ATTEMPT_KEY);
+  if(current){const data=JSON.parse(current);if(data&&data.status)return data;}
+  // Students who completed the previous version should not be able to retake it.
+  const oldScore=LIVE20_ROUND==='2026-10-round-1'?localStorage.getItem('live20_last_score'):null;
+  if(oldScore)return {status:'done',score:oldScore,legacy:true};
+ }catch(e){return {status:'unavailable'}}
+ return null;
+}
+function saveAttempt(data){
+ try{localStorage.setItem(ATTEMPT_KEY,JSON.stringify(data));return true}catch(e){return false}
+}
+function showAttemptComplete(data){
+ finished=true;
+ visibilityReady=false;
+ clearInterval(clock);clearTimeout(timeout);
+ el('login').classList.add('hidden');
+ el('quiz').classList.add('hidden');
+ el('done').classList.remove('hidden');
+ el('done').querySelector('h2').textContent='✅ Сіз LIVE QUIZ-ға қатысқансыз';
+ el('score').textContent=(data.score?'Сіздің нәтижеңіз: '+data.score+' · ':'')+'Қайта тапсыруға рұқсат жоқ. Рейтингті төменнен көре аласыз.';
+}
+async function restoreAttempt(){
+ const a=readAttempt();
+ if(!a)return;
+ if(a.status==='done'){showAttemptComplete(a);return}
+ if(a.status==='unavailable')return err('Браузердегі сақтау өшірілген. Бір реттік қатысу үшін браузердің сақтау рұқсатын қосыңыз.');
+ if(a.status==='active'&&a.sid&&a.token){
+  sid=a.sid;token=a.token;
+  el('login').classList.add('hidden');
+  el('quiz').classList.remove('hidden');
+  el('question').textContent='Алдыңғы тест жалғасуда…';
+  try {await step(null,false);visibilityReady=!finished}
+  catch(e){err('Бұрынғы сессияны ашу мүмкін болмады.')} // step() handles request errors internally
+ }else{
+  el('login').classList.add('hidden');
+  el('done').classList.remove('hidden');
+  el('done').querySelector('h2').textContent='Бұл браузерде тест басталған';
+  el('score').textContent='Сессия деректері табылмады. Жаңа тест бастауға болмайды.';
+ }
+}
+
+const el=id=>document.getElementById('live20_'+id);
+function err(s){el('error').textContent=s||''}
+async function rpc(fn,args={}){const r=await fetch(SUPABASE_URL+'/rest/v1/rpc/'+fn,{method:'POST',headers:{'Content-Type':'application/json','apikey':SUPABASE_PUBLISHABLE_KEY},body:JSON.stringify(args)});const data=await r.json();if(!r.ok)throw Error(data.message||'Сервер қатесі');return data}
+async function results(){
+ const destinations=[el('leaderboard'),document.getElementById('live20_results_board')].filter(Boolean);
+ try{
+  const rows=await rpc('live20_results');
+  destinations.forEach(table=>{
+   table.replaceChildren();
+   rows.forEach((r,i)=>{
+    const tr=document.createElement('tr');
+    [i===0?'🥇 1':i===1?'🥈 2':i===2?'🥉 3':String(i+1),r.name,r.score+'/20',r.duration_seconds+' сек'].forEach(v=>{
+     const td=document.createElement('td');td.textContent=String(v);tr.append(td);
+    });
+    table.append(tr);
+   });
+   if(!rows.length)table.innerHTML='<tr><td colspan="4">Әзірге аяқталған тест жоқ</td></tr>';
+  });
+  document.getElementById('quizAttempts').textContent=String(rows.length);
+  document.getElementById('quizAverage').textContent=rows.length?(rows.reduce((n,r)=>n+Number(r.score),0)/rows.length).toFixed(1)+'/20':'—';
+  document.getElementById('quizBest').textContent=rows.length?Math.max(...rows.map(r=>Number(r.score)))+'/20':'—';
+  try{document.getElementById('quizScore').textContent=localStorage.getItem('live20_last_score_2026-10-round-2')||'—'}catch(e){}
+ }catch(e){
+  destinations.forEach(table=>{table.replaceChildren();const tr=document.createElement('tr');const td=document.createElement('td');td.colSpan=4;td.textContent='Рейтингті жүктеу мүмкін болмады. Интернетті тексеріңіз.';tr.append(td);table.append(tr)});
+  ['quizAttempts','quizAverage','quizBest'].forEach(id=>document.getElementById(id).textContent='—');
+ }
+}
+async function start(){
+ err('');
+ const a=readAttempt();
+ if(a){
+  if(a.status==='done'){showAttemptComplete(a);return}
+  if(a.status==='active'){await restoreAttempt();return}
+  return err('Браузер деректерін сақтау мүмкін емес. Сақтау рұқсатын қосыңыз.');
+ }
+ if(el('name').value.trim().length<3)return err('Аты-жөніңізді енгізіңіз');
+ el('start').disabled=true;
+ try{
+  // If browser storage is disabled, do not create an untracked attempt.
+  const probeKey='koremz_live20_storage_probe';
+  try{localStorage.setItem(probeKey,'1');localStorage.removeItem(probeKey)}
+  catch(e){throw Error('Браузер сақтауы өшірілген. Браузер баптауынан рұқсат беріңіз.')}
+  const name=el('name').value.trim();
+  const r=await rpc('live20_start',{p_name:name,p_code:el('pass').value});
+  sid=r.session_id;token=r.token;
+  if(!saveAttempt({status:'active',sid,token,name,startedAt:new Date().toISOString()})){
+    // Keep the current session from being abandoned even if quota issues occur.
+    throw Error('Браузерге сессияны сақтау мүмкін болмады. Браузер сақтауының рұқсатын тексеріңіз.');
+  }
+  el('login').classList.add('hidden');el('quiz').classList.remove('hidden');
+  await step(null,false);visibilityReady=!finished;
+ }catch(e){err(e.message)}
+ finally{el('start').disabled=false}
+}
+function render(d){if(d.finished){finish(d);return}current=d;el('counter').textContent=d.position+' / 20';el('level').textContent=d.position<=5?'JUNIOR':d.position<=12?'MIDDLE':'SENIOR';el('level').dataset.level=d.position<=5?'junior':d.position<=12?'middle':'senior';el('question').textContent=d.question;el('options').replaceChildren();d.options.forEach((o,i)=>{const b=document.createElement('button');b.className='option';b.textContent='ABCD'[i]+'. '+o;b.onclick=()=>step(i+1,false);el('options').append(b)});el('warning').textContent='Айыппұл: −'+d.warnings+' ұпай';const end=Number(d.deadline);clearInterval(clock);clearTimeout(timeout);const tick=()=>{const left=Math.max(0,Math.ceil((end-Date.now())/1000));el('timer').textContent=left+' сек';el('fill').style.width=left/15*100+'%';if(left===0){clearInterval(clock);step(null,false)}};tick();clock=setInterval(tick,200);timeout=setTimeout(()=>step(null,false),Math.max(0,end-Date.now()+120))}
+async function step(answer,leave){if(loading||finished){if(leave)pendingLeaves++;return}loading=true;err('');try{const d=await rpc('live20_step',{p_session:sid,p_token:token,p_answer:answer,p_leave:leave});render(d)}catch(e){err(e.message)}finally{loading=false;if(pendingLeaves&&!finished){pendingLeaves--;step(null,true)}}}
+function finish(d){
+ finished=true;visibilityReady=false;
+ clearInterval(clock);clearTimeout(timeout);
+ el('quiz').classList.add('hidden');el('login').classList.add('hidden');el('done').classList.remove('hidden');
+ el('done').querySelector('h2').textContent='Тест аяқталды';
+ el('score').textContent='Қорытынды: '+d.score+'/20 · Дұрыс жауап: '+d.correct+' · Айыппұл: −'+d.warnings+' · Қайта тапсыруға болмайды.';
+ saveAttempt({status:'done',score:d.score+'/20',finishedAt:new Date().toISOString()});
+ try{localStorage.setItem('live20_last_score_2026-10-round-2',d.score+'/20')}catch(e){}
+ results()
+}
+function leaveQuiz(){if(!visibilityReady||finished||!sid)return;const now=Date.now();if(now-lastLeave<1100)return;lastLeave=now;step(null,true)}
+document.addEventListener('visibilitychange',()=>{if(document.hidden)leaveQuiz()});
+
+document.addEventListener('copy',e=>{if(!el('quiz').classList.contains('hidden'))e.preventDefault()});document.addEventListener('contextmenu',e=>{if(!el('quiz').classList.contains('hidden'))e.preventDefault()});
+window.live20Leave=leaveQuiz;
+el('start').onclick=start;
+window.addEventListener('hashchange',()=>{if(location.hash==='#results'||location.hash==='#quiz')results()});
+window.addEventListener('storage',e=>{
+ if(e.key===ATTEMPT_KEY && e.newValue && !sid){restoreAttempt()}
+});
+restoreAttempt();
+results();
+
+})();
+</script><script>
+(function(){
+const form=document.getElementById('aiVideoForm'), gate=document.getElementById('aiVideoGate'), content=document.getElementById('aiVideoContent'), video=document.getElementById('kenesaryVideo');
+form.addEventListener('submit',function(e){e.preventDefault();const code=document.getElementById('aiVideoPassword').value.trim().toUpperCase();if(code==='KENESARY1847'){gate.hidden=true;content.hidden=false;document.getElementById('aiVideoError').style.display='none';}else{document.getElementById('aiVideoError').style.display='block';}});
+document.getElementById('aiVideoLock').addEventListener('click',function(){video.pause();video.currentTime=0;content.hidden=true;gate.hidden=false;document.getElementById('aiVideoPassword').value='';});
+})();
+</script></body></html>
